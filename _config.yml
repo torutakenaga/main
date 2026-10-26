@@ -3,6 +3,12 @@ url: "https://torutakenaga.com"
 markdown: kramdown
 theme: minima
 
+# 連絡先メール(HTMLに平文で出さず、JSで組み立てる)
+# 独自ドメインの転送アドレスが使えるようになったら、ここだけ書き換える
+#   contact_user: contact / contact_domain: torutakenaga.com
+contact_user: "torutakenaga"
+contact_domain: "gmail.com"
+
 # ナビに表示するページ
 header_pages:
   - tango.md

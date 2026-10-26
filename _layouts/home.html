@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Toru Takenaga — torutakenaga.com</title>
 <meta name="description" content="Research scientist, Argentine tango dancer, kendo 6th dan. Based in Tokyo.">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; frame-src https://calendar.google.com; object-src 'none'; base-uri 'self'; form-action 'self'">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Geist+Mono:wght@300;400&family=Geist:wght@300;400;500&display=swap" rel="stylesheet">
@@ -221,6 +223,35 @@ nav {
 }
 .booking-btn:hover { background: var(--bg2); }
 
+/* CONTACT */
+.contact-outer { border-top: 1px solid var(--rule); }
+.contact-wrap { max-width: 1080px; margin: 0 auto; padding: 56px 48px 64px; }
+.contact-h {
+  font-family: var(--f-serif); font-size: 40px; font-weight: 300;
+  line-height: 1.1; color: var(--ink); margin-bottom: 14px;
+}
+.contact-h em { font-style: italic; color: var(--ink3); }
+.contact-intro { font-size: 14px; font-weight: 300; color: var(--ink2); line-height: 1.8; max-width: 520px; margin-bottom: 28px; }
+.contact-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 1px; background: var(--rule);
+  border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+}
+.contact-card { background: var(--bg); padding: 28px 28px 30px; }
+.contact-card .pillar-tag { margin-bottom: 12px; }
+.contact-card p { font-size: 13px; font-weight: 300; color: var(--ink2); line-height: 1.75; margin-bottom: 16px; }
+.contact-link {
+  font-family: var(--f-mono); font-size: 10px; font-weight: 400;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--ink); text-decoration: none;
+  border-bottom: 1px solid var(--rule); padding-bottom: 1px;
+}
+.contact-link:hover { border-color: var(--ink2); }
+.contact-note { font-size: 12px; color: var(--ink3); margin-top: 20px; }
+@media (max-width: 720px) {
+  .contact-wrap { padding: 40px 20px 48px; }
+  .contact-grid { grid-template-columns: 1fr; }
+}
 
 
 /* FOOTER */
@@ -269,7 +300,7 @@ footer {
     <li><a href="#tango">Tango</a></li>
     <li><a href="#kendo">Kendo</a></li>
     <li><a href="#booking">Meeting</a></li>
-    <li><a href="mailto:torutakenaga@gmail.com">Contact</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
 
@@ -352,12 +383,54 @@ document.addEventListener('DOMContentLoaded', function() {
     <iframe
       src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1kN7flM4-rWKppVvkPaX1fH1QsBifDb9WBhdgcVIelQL8QLEHzEKgO2FnxmiBTdTjUO6UCZLQS?gv=true"
       frameborder="0"
+      loading="lazy"
       title="Book a session with Toru Takenaga">
     </iframe>
   </div>
 </div>
 </div>
 
+<!-- CONTACT — address is assembled by JS (see _config.yml: contact_user / contact_domain) -->
+<div class="contact-outer" id="contact">
+<div class="contact-wrap" data-u="{{ site.contact_user }}" data-d="{{ site.contact_domain }}">
+  <div class="contact-h">Get in <em>touch</em></div>
+  <div class="contact-intro">
+    ご用件に近いものをお選びください。件名が入力済みのメールが開きます。
+    お急ぎでない打ち合わせは、上のカレンダーからも予約できます。
+  </div>
+  <div class="contact-grid">
+    <div class="contact-card">
+      <div class="pillar-tag"><span class="dot dot-science"></span>Research</div>
+      <p>共同研究・データ解析・ワクチン品質評価に関するご相談。</p>
+      <a class="contact-link" href="#booking" data-subject="[Research] Collaboration inquiry">Write →</a>
+    </div>
+    <div class="contact-card">
+      <div class="pillar-tag"><span class="dot dot-tango"></span>Tango</div>
+      <p>ミロンガ・フェスティバル・イベントへの出演、演奏、DJのご依頼。</p>
+      <a class="contact-link" href="#booking" data-subject="[Tango] Performance / DJ request">Write →</a>
+    </div>
+    <div class="contact-card">
+      <div class="pillar-tag"><span class="dot dot-kendo"></span>Other</div>
+      <p>講演・執筆・取材、その他のご連絡。</p>
+      <a class="contact-link" href="#booking" data-subject="[Other] Talk / writing / other inquiry">Write →</a>
+    </div>
+  </div>
+  <noscript><p class="contact-note">JavaScriptを有効にするか、上のカレンダーからご連絡ください。</p></noscript>
+</div>
+</div>
+
+<script>
+// メールアドレスをHTMLに平文で置かず、表示時に組み立てる(スパム収集対策)
+document.addEventListener('DOMContentLoaded', function() {
+  var box = document.querySelector('.contact-wrap');
+  if (!box) return;
+  var addr = box.dataset.u + '@' + box.dataset.d;
+  box.querySelectorAll('.contact-link').forEach(function(a) {
+    a.href = 'mailto:' + addr + '?subject=' + encodeURIComponent(a.dataset.subject);
+    a.removeAttribute('target');
+  });
+});
+</script>
 
 <footer>
   <div class="footer-copy">© 2026 torutakenaga.com</div>
