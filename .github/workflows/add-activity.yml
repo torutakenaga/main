@@ -15,7 +15,7 @@ jobs:
   add:
     # The repository is public, so anyone can open an issue. Only the owner's issues are processed.
     if: >-
-      github.repository == 'torutakenaga/main' &&
+      github.repository_owner == 'torutakenaga' &&
       github.event.issue.user.login == 'torutakenaga' &&
       contains(github.event.issue.labels.*.name, 'activity')
     runs-on: ubuntu-latest
