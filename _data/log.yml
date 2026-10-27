@@ -146,6 +146,16 @@
   venue: "横浜"
   category: kendo
 
+- date: "2024.11.09"
+  title: "第38回 霞が関官公庁剣道大会 — 厚生労働省チーム 3位"
+  venue: "東京 東京武道館"
+  category: kendo
+
+- date: "2024.10.12"
+  title: "第56回 全日本官公庁剣道大会 — 個人戦・団体戦に出場"
+  venue: "東京 東京武道館"
+  category: kendo
+
 - date: "2024.09.22"
   title: "第33回 厚生労働省剣友会全国大会 — 個人戦 優勝"
   venue: "千葉 大網白里 タイヨースポーツセンター"
@@ -170,6 +180,11 @@
   title: "けやきの夏祭り「アルゼンチンタンゴの演奏・ダンス♪」"
   venue: "京都"
   category: tango
+
+- date: "2024.06.29"
+  title: "第60回 東京官公庁剣道大会 — 団体戦に出場"
+  venue: "東京 東京武道館"
+  category: kendo
 
 - date: "2024.05.29"
   title: "Hexestrol, an estrogen receptor agonist, inhibits Lassa virus entry"
