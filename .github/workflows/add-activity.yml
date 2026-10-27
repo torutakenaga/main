@@ -17,7 +17,8 @@ jobs:
     if: >-
       github.repository_owner == 'torutakenaga' &&
       github.event.issue.user.login == 'torutakenaga' &&
-      contains(github.event.issue.labels.*.name, 'activity')
+      (contains(github.event.issue.labels.*.name, 'activity') ||
+       startsWith(github.event.issue.title, '[activity]'))
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ github.token }}
