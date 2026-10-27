@@ -82,6 +82,10 @@ nav {
 .pill-t { color: var(--tango);   border-color: rgba(184,48,64,0.25);  background: rgba(184,48,64,0.04); }
 .pill-k { color: var(--kendo);   border-color: rgba(58,74,92,0.25);   background: rgba(58,74,92,0.04); }
 .pill-s { color: var(--science); border-color: rgba(31,92,62,0.25);   background: rgba(31,92,62,0.04); }
+.hero-note {
+  font-family: var(--f-mono); font-size: 9px; font-weight: 300;
+  letter-spacing: 0.06em; color: var(--ink3); margin: -20px 0 28px;
+}
 .hero-cta {
   display: inline-flex; align-items: center; gap: 8px;
   font-family: var(--f-mono); font-size: 10px; font-weight: 400;
@@ -247,6 +251,11 @@ nav {
   border-bottom: 1px solid var(--rule); padding-bottom: 1px;
 }
 .contact-link:hover { border-color: var(--ink2); }
+.contact-card .ja { color: var(--ink3); }
+.contact-card p.contact-hint {
+  font-family: var(--f-mono); font-size: 9px; letter-spacing: 0.04em;
+  color: var(--ink3); line-height: 1.7; margin-bottom: 18px;
+}
 .contact-note { font-size: 12px; color: var(--ink3); margin-top: 20px; }
 @media (max-width: 720px) {
   .contact-wrap { padding: 40px 20px 48px; }
@@ -310,6 +319,7 @@ footer {
   <div class="hero-desc">
     Research scientist at JIHS/NIID. Tango dancer. Kendo 6th dan.
   </div>
+  <p class="hero-note">Personal website. Views expressed here are my own.</p>
   <a class="hero-cta" href="#booking">Meeting →</a>
 </div>
 </div>
@@ -371,7 +381,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <div class="booking-outer" id="booking">
 <div class="booking-wrap">
   <div>
-    <div class="booking-h">Book a<br><em>session</em></div>
+    <div class="booking-h">Schedule a<br><em>meeting</em></div>
     <div class="booking-intro">
       打ち合わせのご予約はカレンダーから直接お取りいただけます。
     </div>
@@ -384,7 +394,7 @@ document.addEventListener('DOMContentLoaded', function() {
       src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1kN7flM4-rWKppVvkPaX1fH1QsBifDb9WBhdgcVIelQL8QLEHzEKgO2FnxmiBTdTjUO6UCZLQS?gv=true"
       frameborder="0"
       loading="lazy"
-      title="Book a session with Toru Takenaga">
+      title="Schedule a meeting with Toru Takenaga">
     </iframe>
   </div>
 </div>
@@ -395,27 +405,30 @@ document.addEventListener('DOMContentLoaded', function() {
 <div class="contact-wrap" data-u="{{ site.contact_user }}" data-d="{{ site.contact_domain }}">
   <div class="contact-h">Get in <em>touch</em></div>
   <div class="contact-intro">
-    ご用件に近いものをお選びください。件名が入力済みのメールが開きます。
-    お急ぎでない打ち合わせは、上のカレンダーからも予約できます。
+    Pick what fits — your email app opens with a subject ready. To set up a meeting, use the calendar above.<br>
+    <span class="ja">件名入力済みのメールが開きます。打ち合わせは上のカレンダーから予約できます。</span>
   </div>
   <div class="contact-grid">
     <div class="contact-card">
       <div class="pillar-tag"><span class="dot dot-science"></span>Research</div>
-      <p>共同研究・データ解析・ワクチン品質評価に関するご相談。</p>
-      <a class="contact-link" href="#booking" data-subject="[Research] Collaboration inquiry">Write →</a>
+      <p>Research collaboration and consultation.<br><span class="ja">共同研究・研究に関するご相談。</span></p>
+      <p class="contact-hint">Please include: affiliation, purpose, timeline<br>ご所属・目的・ご希望の時期</p>
+      <a class="contact-link" href="#booking" data-subject="[Research] Collaboration inquiry">Email →</a>
     </div>
     <div class="contact-card">
       <div class="pillar-tag"><span class="dot dot-tango"></span>Tango</div>
-      <p>ミロンガ・フェスティバル・イベントへの出演、演奏、DJのご依頼。</p>
-      <a class="contact-link" href="#booking" data-subject="[Tango] Performance / DJ request">Write →</a>
+      <p>Performances and organizing events.<br><span class="ja">出演とイベントの主催のご相談。</span></p>
+      <p class="contact-hint">Please include: what you have in mind, date, venue<br>ご希望の内容・日時・会場</p>
+      <a class="contact-link" href="#booking" data-subject="[Tango] Performance / event inquiry">Email →</a>
     </div>
     <div class="contact-card">
-      <div class="pillar-tag"><span class="dot dot-kendo"></span>Other</div>
-      <p>講演・執筆・取材、その他のご連絡。</p>
-      <a class="contact-link" href="#booking" data-subject="[Other] Talk / writing / other inquiry">Write →</a>
+      <div class="pillar-tag"><span class="dot dot-kendo"></span>Talks &amp; Media</div>
+      <p>Talks, writing, and interviews.<br><span class="ja">講演・執筆・取材のご相談。</span></p>
+      <p class="contact-hint">Please include: topic, date, format<br>テーマ・日時・形式</p>
+      <a class="contact-link" href="#booking" data-subject="[Talks &amp; Media] Inquiry">Email →</a>
     </div>
   </div>
-  <noscript><p class="contact-note">JavaScriptを有効にするか、上のカレンダーからご連絡ください。</p></noscript>
+  <noscript><p class="contact-note">Please enable JavaScript, or use the calendar above. / JavaScriptを有効にするか、上のカレンダーからご連絡ください。</p></noscript>
 </div>
 </div>
 
