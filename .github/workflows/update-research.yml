@@ -1,0 +1,40 @@
+name: Update research list
+
+# Run by hand: Actions > "Update research list" > Run workflow.
+# Looks for new items on ORCID and researchmap and opens a pull request.
+# Nothing is published until that pull request is merged.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    if: github.repository_owner == 'torutakenaga'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Look for new items
+        run: python3 scripts/fetch_research.py --summary "$RUNNER_TEMP/summary.md"
+
+      - name: Open a pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- _data/log.yml; then
+            echo "No new items."
+            exit 0
+          fi
+          branch="auto/research-${GITHUB_RUN_ID}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add _data/log.yml
+          git commit -m "Add new research items from ORCID / researchmap"
+          git push origin "$branch"
+          gh pr create --base main --head "$branch" \
+            --title "Add new research items" \
+            --body-file "$RUNNER_TEMP/summary.md"

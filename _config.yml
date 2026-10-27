@@ -9,6 +9,11 @@ theme: minima
 contact_user: "torutakenaga"
 contact_domain: "gmail.com"
 
+# 公開しないファイル(自動更新用のスクリプトなど)
+exclude:
+  - scripts
+  - README.md
+
 # ナビに表示するページ
 header_pages:
   - tango.md

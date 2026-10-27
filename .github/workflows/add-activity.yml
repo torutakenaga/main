@@ -1,0 +1,55 @@
+name: Add activity from issue
+
+# Submit the "Add activity" issue form; this opens a pull request that adds one entry.
+# Nothing is published until that pull request is merged.
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  add:
+    # The repository is public, so anyone can open an issue. Only the owner's issues are processed.
+    if: >-
+      github.repository_owner == 'torutakenaga' &&
+      github.event.issue.user.login == 'torutakenaga' &&
+      (contains(github.event.issue.labels.*.name, 'activity') ||
+       startsWith(github.event.issue.title, '[activity]'))
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      ISSUE_NUMBER: ${{ github.event.issue.number }}
+      ISSUE_BODY: ${{ github.event.issue.body }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Add the entry
+        run: python3 scripts/add_activity.py --summary "$RUNNER_TEMP/summary.md" --error "$RUNNER_TEMP/error.txt"
+
+      - name: Open a pull request
+        run: |
+          branch="auto/activity-${ISSUE_NUMBER}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add _data/log.yml
+          git commit -m "Add activity from issue #${ISSUE_NUMBER}"
+          git push origin "$branch"
+          printf '\nCloses #%s\n' "$ISSUE_NUMBER" >> "$RUNNER_TEMP/summary.md"
+          gh pr create --base main --head "$branch" \
+            --title "Add activity (issue #${ISSUE_NUMBER})" \
+            --body-file "$RUNNER_TEMP/summary.md"
+
+      - name: Report a problem on the issue
+        if: failure()
+        run: |
+          if [ -f "$RUNNER_TEMP/error.txt" ]; then
+            gh issue comment "$ISSUE_NUMBER" --body-file "$RUNNER_TEMP/error.txt"
+          else
+            gh issue comment "$ISSUE_NUMBER" --body "The update failed. See the Actions log."
+          fi

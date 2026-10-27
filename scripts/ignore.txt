@@ -1,0 +1,6 @@
+# Research items the automatic update must NOT propose again.
+# One researchmap id, DOI, or title fragment per line (case-insensitive). '#' starts a comment.
+# When you close an automatic PR without adding an item, put it here.
+
+45918550            # SEITAI NO KAGAKU (same article is already listed as "Development of cell entry inhibitors for Lassa virus")
+SEITAI NO KAGAKU
