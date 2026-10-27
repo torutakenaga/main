@@ -251,6 +251,11 @@ nav {
   border-bottom: 1px solid var(--rule); padding-bottom: 1px;
 }
 .contact-link:hover { border-color: var(--ink2); }
+.contact-card .ja { color: var(--ink3); }
+.contact-card p.contact-hint {
+  font-family: var(--f-mono); font-size: 9px; letter-spacing: 0.04em;
+  color: var(--ink3); line-height: 1.7; margin-bottom: 18px;
+}
 .contact-note { font-size: 12px; color: var(--ink3); margin-top: 20px; }
 @media (max-width: 720px) {
   .contact-wrap { padding: 40px 20px 48px; }
@@ -400,27 +405,29 @@ document.addEventListener('DOMContentLoaded', function() {
 <div class="contact-wrap" data-u="{{ site.contact_user }}" data-d="{{ site.contact_domain }}">
   <div class="contact-h">Get in <em>touch</em></div>
   <div class="contact-intro">
-    ご用件に近いものをお選びください。件名が入力済みのメールが開きます。
-    お急ぎでない打ち合わせは、上のカレンダーからも予約できます。
+    Pick what fits — your email app opens with a subject ready. To set up a meeting, use the calendar above.<br>
+    <span class="ja">件名入力済みのメールが開きます。打ち合わせは上のカレンダーから予約できます。</span>
   </div>
   <div class="contact-grid">
     <div class="contact-card">
       <div class="pillar-tag"><span class="dot dot-science"></span>Research</div>
-      <p>共同研究・データ解析・ワクチン品質評価に関するご相談。</p>
-      <a class="contact-link" href="#booking" data-subject="[Research] Collaboration inquiry">Write →</a>
+      <p>Collaboration, data analysis, infectious disease and vaccine informatics.<br><span class="ja">共同研究・データ解析のご相談。</span></p>
+      <p class="contact-hint">Please include: affiliation, purpose, timeline<br>ご所属・目的・ご希望の時期</p>
+      <a class="contact-link" href="#booking" data-subject="[Research] Collaboration inquiry">Email →</a>
     </div>
     <div class="contact-card">
       <div class="pillar-tag"><span class="dot dot-tango"></span>Tango</div>
-      <p>ミロンガ・フェスティバル・イベントへの出演、演奏、DJのご依頼。</p>
-      <a class="contact-link" href="#booking" data-subject="[Tango] Performance / DJ request">Write →</a>
+      <p>Performances, DJ sets, milongas and festivals.<br><span class="ja">出演・演奏・DJのご依頼。</span></p>
+      <p class="contact-hint">Please include: date, venue, format<br>日時・会場・形式</p>
+      <a class="contact-link" href="#booking" data-subject="[Tango] Performance / DJ request">Email →</a>
     </div>
     <div class="contact-card">
       <div class="pillar-tag"><span class="dot dot-kendo"></span>Other</div>
-      <p>講演・執筆・取材、その他のご連絡。</p>
-      <a class="contact-link" href="#booking" data-subject="[Other] Talk / writing / other inquiry">Write →</a>
+      <p>Talks, writing, interviews, anything else.<br><span class="ja">講演・執筆・取材、その他のご連絡。</span></p>
+      <a class="contact-link" href="#booking" data-subject="[Other] Talk / writing / other inquiry">Email →</a>
     </div>
   </div>
-  <noscript><p class="contact-note">JavaScriptを有効にするか、上のカレンダーからご連絡ください。</p></noscript>
+  <noscript><p class="contact-note">Please enable JavaScript, or use the calendar above. / JavaScriptを有効にするか、上のカレンダーからご連絡ください。</p></noscript>
 </div>
 </div>
 
