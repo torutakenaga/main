@@ -11,6 +11,16 @@
 #
 # ─────────────────────────────────────────────
 
+- date: "2026.10.11"
+  title: "第35回 厚生労働省剣友会全国大会 — 団体戦 優勝・日本剣道形 演武"
+  venue: "山梨 山中湖 風林山荘"
+  category: kendo
+
+- date: "2026.06.21"
+  title: "第62回 東京官公庁剣道大会 — 個人戦・団体戦に出場"
+  venue: "東京 東京武道館"
+  category: kendo
+
 - date: "2026.04.30"
   title: "Immunogenicity of influenza split vaccine for 2025/26 season in Japan using a mouse model"
   venue: "Japanese Journal of Infectious Diseases"
@@ -57,6 +67,11 @@
   venue: ""
   category: research
   url: "https://researchmap.jp/torutakenaga/published_papers/52303968"
+
+- date: "2025.11.08"
+  title: "第39回 霞が関官公庁剣道大会 — 厚生労働省チーム 3位"
+  venue: "東京 東京武道館"
+  category: kendo
 
 - date: "2025.11.01"
   title: "令和7年度 敬老の集い「アルゼンチンタンゴの演奏とダンス」"
@@ -126,6 +141,16 @@
   venue: "兵庫 宝塚 El Puente"
   category: tango
 
+- date: "2024.11.09"
+  title: "浅野学園剣道部 創部100周年 — 記念誌に寄稿"
+  venue: "横浜"
+  category: kendo
+
+- date: "2024.09.22"
+  title: "第33回 厚生労働省剣友会全国大会 — 個人戦 優勝"
+  venue: "千葉 大網白里 タイヨースポーツセンター"
+  category: kendo
+
 - date: "2024.09.21"
   title: "Kansai Tango Orquesta 駅構内に響くアルゼンチンタンゴ — 駅ナカでタンゴ（ミロンガ）2"
   venue: "大阪 アートエリアB1（阪急電車なにわ駅）"
@@ -156,6 +181,11 @@
   title: "Kansai Tango Orquesta 駅ナカでタンゴ"
   venue: "大阪 アートエリアB1（阪急電車なにわ駅）"
   category: tango
+
+- date: "2024.04.29"
+  title: "剣道六段審査会 合格"
+  venue: "京都 京都市体育館"
+  category: kendo
 
 - date: "2024.04.07"
   title: "Parados Tango Dream"
