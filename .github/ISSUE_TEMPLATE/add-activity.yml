@@ -1,0 +1,44 @@
+name: 活動を追加 / Add activity
+description: サイトの活動リストに1件追加します(送信するとPRが自動で作られます)
+title: "[activity] "
+labels: ["activity"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - tango
+        - research
+        - kendo
+        - project
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Date (YYYY.MM.DD)
+      description: 日や月が不明なときは 00 にします(例 2026.11.00)
+      placeholder: "2026.11.03"
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Title
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: Venue (optional)
+      description: 会場や掲載誌など
+  - type: input
+    id: url
+    attributes:
+      label: URL (optional)
+      description: https:// から始まるリンク。あればタイトルがリンクになります
+  - type: markdown
+    attributes:
+      value: |
+        金額に関する内容は書かないでください。送信後、PRが作られます。マージするまで公開されません。
