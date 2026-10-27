@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://torutakenaga.com/sitemap.xml
