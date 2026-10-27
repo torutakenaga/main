@@ -6,6 +6,19 @@
 <title>Toru Takenaga — torutakenaga.com</title>
 <meta name="description" content="Research scientist, Argentine tango dancer, kendo 6th dan. Based in Tokyo.">
 <meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="canonical" href="https://torutakenaga.com/">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Toru Takenaga">
+<meta property="og:title" content="Toru Takenaga">
+<meta property="og:description" content="Research scientist, Argentine tango dancer, kendo 6th dan. Based in Tokyo.">
+<meta property="og:url" content="https://torutakenaga.com/">
+<meta property="og:image" content="https://torutakenaga.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Toru Takenaga — Research, Tango, Kendo">
+<meta name="twitter:card" content="summary_large_image">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; frame-src https://calendar.google.com; object-src 'none'; base-uri 'self'; form-action 'self'">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -82,6 +95,10 @@ nav {
 .pill-t { color: var(--tango);   border-color: rgba(184,48,64,0.25);  background: rgba(184,48,64,0.04); }
 .pill-k { color: var(--kendo);   border-color: rgba(58,74,92,0.25);   background: rgba(58,74,92,0.04); }
 .pill-s { color: var(--science); border-color: rgba(31,92,62,0.25);   background: rgba(31,92,62,0.04); }
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+}
 .hero-note {
   font-family: var(--f-mono); font-size: 9px; font-weight: 300;
   letter-spacing: 0.06em; color: var(--ink3); margin: -20px 0 28px;
@@ -316,6 +333,7 @@ footer {
 <!-- HERO -->
 <div style="border-bottom:1px solid var(--rule)">
 <div class="hero">
+  <h1 class="sr-only">Toru Takenaga</h1>
   <div class="hero-desc">
     Research scientist at JIHS/NIID. Tango dancer. Kendo 6th dan.
   </div>
