@@ -69,8 +69,12 @@ def format_entry(entry):
     """YAML text for one entry. JSON strings are valid YAML, so quoting is always safe."""
     lines = ["- date: " + json.dumps(entry["date"], ensure_ascii=False),
              "  title: " + json.dumps(entry["title"], ensure_ascii=False)]
+    if entry.get("title_en"):
+        lines.append("  title_en: " + json.dumps(entry["title_en"], ensure_ascii=False))
     if entry.get("venue"):
         lines.append("  venue: " + json.dumps(entry["venue"], ensure_ascii=False))
+    if entry.get("venue_en"):
+        lines.append("  venue_en: " + json.dumps(entry["venue_en"], ensure_ascii=False))
     lines.append("  category: " + entry["category"])
     if entry.get("url"):
         lines.append("  url: " + json.dumps(entry["url"], ensure_ascii=False))
@@ -103,23 +107,29 @@ class Known:
             m = re.search(r"nature\.com/articles/(s[\w-]+)", url)
             if m:
                 self.dois.add("10.1038/" + m.group(1).lower())
-            t = normalize(_field(b, "title"))
-            if t:
-                self.titles.append(t)
+            for name in ("title", "title_en"):
+                t = normalize(_field(b, name))
+                if t:
+                    self.titles.append(t)
 
     def contains(self, entry):
         if entry.get("rm_id") and entry["rm_id"] in self.rm_ids:
             return True
         if entry.get("doi") and entry["doi"] in self.dois:
             return True
-        t = normalize(entry["title"])
-        if t in self.titles:
-            return True
-        return any(difflib.SequenceMatcher(None, t, k).ratio() >= SIMILAR_TITLE for k in self.titles)
+        for name in ("title", "title_en"):
+            t = normalize(entry.get(name))
+            if not t:
+                continue
+            if t in self.titles or any(difflib.SequenceMatcher(None, t, k).ratio() >= SIMILAR_TITLE for k in self.titles):
+                return True
+        return False
 
     def add(self, entry):
         if entry.get("rm_id"):
             self.rm_ids.add(entry["rm_id"])
         if entry.get("doi"):
             self.dois.add(entry["doi"])
-        self.titles.append(normalize(entry["title"]))
+        for name in ("title", "title_en"):
+            if entry.get(name):
+                self.titles.append(normalize(entry[name]))

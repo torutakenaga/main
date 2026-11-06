@@ -11,6 +11,8 @@ Jekyll site on GitHub Pages. The activity list on the home page is built from `_
 | **Issues > New issue > "Add activity"** | One event, talk, etc. | Fill in the form. A pull request is opened automatically (owner's issues only). |
 | **Actions > "Update research list" > Run workflow** | New papers / talks | Looks at ORCID and researchmap and opens a pull request with items not in the list yet. |
 
+English display: an entry can carry `title_en` / `venue_en` next to `title` / `venue`. When they are missing, the English view shows `title` / `venue` as they are. The issue form has optional "English title" and "English venue" fields for this.
+
 Nothing is published until you merge the pull request. Check the entries first.
 
 - Items you do not want from ORCID / researchmap: add the researchmap id, DOI or a title fragment to `scripts/ignore.txt`.

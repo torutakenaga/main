@@ -13,22 +13,30 @@
 
 - date: "2026.10.31"
   title: "第58回 全日本官公庁剣道大会 — 個人戦・団体戦に出場"
+  title_en: "The 58th All-Japan Government Offices Kendo Tournament — Competed in the individual and team events"
   venue: "東京 東京武道館"
+  venue_en: "Tokyo, Tokyo Budokan"
   category: kendo
 
 - date: "2026.10.11"
   title: "第35回 厚生労働省剣友会全国大会 — 団体戦 優勝・日本剣道形 演武"
+  title_en: "The 35th National Tournament of the Ministry of Health, Labour and Welfare Kendo Club (Kenyu-kai) — Won the team event; performed Nippon Kendo Kata"
   venue: "山梨 山中湖 風林山荘"
+  venue_en: "Yamanashi, Lake Yamanaka, Furin Sanso"
   category: kendo
 
 - date: "2026.07.12"
   title: "第30回 西東京剣道選手権大会(東京都剣道選手権大会予選会) — 出場"
+  title_en: "The 30th West Tokyo Kendo Championship (qualifier for the Tokyo Kendo Championship) — Competed"
   venue: "東京 エスフォルタアリーナ八王子"
+  venue_en: "Tokyo, Esforta Arena Hachioji"
   category: kendo
 
 - date: "2026.06.21"
   title: "第62回 東京官公庁剣道大会 — 個人戦・団体戦に出場"
+  title_en: "The 62nd Tokyo Government Offices Kendo Tournament — Competed in the individual and team events"
   venue: "東京 東京武道館"
+  venue_en: "Tokyo, Tokyo Budokan"
   category: kendo
 
 - date: "2026.04.30"
@@ -39,37 +47,50 @@
 
 - date: "2026.04.04"
   title: "サクラタンゴフェスティバル 2026 After Milonga"
+  title_en: "Sakura Tango Festival 2026 After Milonga"
   venue: "福岡 ティエンポ・イベロアメリカーノ"
+  venue_en: "Fukuoka, Tiempo Iberoamericano"
   category: tango
 
 - date: "2026.03.21"
   title: "なにわタンゴフェスティバル IN OSAKA — Team El Puente"
+  title_en: "Naniwa Tango Festival in Osaka — Team El Puente"
   venue: "大阪 難波御堂筋ホール b2hall"
+  venue_en: "Osaka, Naniwa Midosuji Hall b2hall"
   category: tango
 
 - date: "2026.03.20"
   title: "駅ナカ・デ・タンゴ — 駅構内に響くアルゼンチンタンゴ"
-  venue: "大阪 アートエリアB1（阪急電車なにわ駅）"
+  title_en: "Eki-naka de Tango — Argentine tango resonating in a station concourse"
+  venue: "大阪 アートエリアB1（京阪電車なにわ橋駅）"
+  venue_en: "Osaka, Art Area B1"
   category: tango
 
 - date: "2026.02.23"
   title: "音楽の仲間「花」第43回コンサート〜ひとひら、ひとひらの花びらでひとつの「花」を〜"
+  title_en: "Music Friends \"Hana\" 43rd Concert — Petal by petal, together one flower"
   venue: "京都 堀川音楽高等学校 音楽ホール"
+  venue_en: "Kyoto, Horikawa High School of Music, Music Hall"
   category: tango
 
 - date: "2026.01.12"
   title: "KANSAI Tango Orquesta 第10回定期コンサート \"La fiesta de Tango\""
+  title_en: "KANSAI Tango Orquesta 10th Regular Concert \"La fiesta de Tango\""
   venue: "大阪 堺市東文化会館 文化ホール（北野田フェスティバル）"
+  venue_en: "Osaka, Sakai Higashi Cultural Hall (Kitanoda Festival)"
   category: tango
 
 - date: "2026.01.03"
   title: "New Year Special Kyoto Milonga"
   venue: "京都 烏丸御池 MDSビル3階（ホールB）"
+  venue_en: "Kyoto, Karasuma-Oike, MDS Building 3F (Hall B)"
   category: tango
 
 - date: "2025.12.14"
   title: "クリスマスパーティ"
+  title_en: "Christmas Party"
   venue: "滋賀 彦根 サニープレイス彦根"
+  venue_en: "Shiga, Hikone, Sunny Place Hikone"
   category: tango
 
 - date: "2025.11.12"
@@ -80,27 +101,36 @@
 
 - date: "2025.11.08"
   title: "第39回 霞が関官公庁剣道大会 — 厚生労働省チーム 3位"
+  title_en: "The 39th Kasumigaseki Government Offices Kendo Tournament — Ministry of Health, Labour and Welfare team, 3rd place"
   venue: "東京 東京武道館"
+  venue_en: "Tokyo, Tokyo Budokan"
   category: kendo
 
 - date: "2025.11.01"
   title: "令和7年度 敬老の集い「アルゼンチンタンゴの演奏とダンス」"
+  title_en: "Reiwa 7 Respect-for-the-Aged Gathering — Argentine tango performance and dance"
   venue: "大阪 堺市 御池台小学校体育館"
+  venue_en: "Osaka, Sakai, Miikedai Elementary School Gymnasium"
   category: tango
 
 - date: "2025.10.19"
   title: "旭区レクチャーコンサート「アルゼンチンタンゴの世界」vol.6〜オルケスタ・ティピカ — アルゼンチンタンゴにおける\"標準的\"楽器構成〜"
+  title_en: "Asahi Ward Lecture Concert \"The World of Argentine Tango\" vol. 6 — Orquesta Típica: the \"standard\" instrumentation of Argentine tango"
   venue: "大阪 旭区"
+  venue_en: "Osaka, Asahi Ward"
   category: tango
 
 - date: "2025.08.16"
   title: "音楽の仲間「花」第42回コンサート〜ひとひら、ひとひらの花びらでひとつの「花」を〜"
+  title_en: "Music Friends \"Hana\" 42nd Concert — Petal by petal, together one flower"
   venue: "京都 堀川音楽高等学校 音楽ホール"
+  venue_en: "Kyoto, Horikawa High School of Music, Music Hall"
   category: tango
 
 - date: "2025.07.20"
   title: "Diego & Aldana milonga"
   venue: "東京 祐天寺"
+  venue_en: "Tokyo, Yutenji"
   category: tango
 
 - date: "2025.07.16"
@@ -112,16 +142,20 @@
 - date: "2025.06.29"
   title: "OSAKA CITY HALL DE MILONGA TANGO CARNIVAL 2025"
   venue: "大阪 中央公会堂 小集会室"
+  venue_en: "Osaka, Osaka City Central Public Hall, Small Assembly Room"
   category: tango
 
 - date: "2025.04.06"
   title: "サクラタンゴフェスティバル 2025 After Milonga"
+  title_en: "Sakura Tango Festival 2025 After Milonga"
   venue: "福岡 ティエンポ・イベロアメリカーノ"
+  venue_en: "Fukuoka, Tiempo Iberoamericano"
   category: tango
 
 - date: "2025.03.09"
   title: "Milonga Azul"
   venue: "滋賀 旧大津公会堂"
+  venue_en: "Shiga, Former Otsu Public Hall"
   category: tango
 
 - date: "2025.03.03"
@@ -132,7 +166,9 @@
 
 - date: "2025.02.01"
   title: "KANSAI Tango Orquesta Concert「Tango, tango, tango!」"
+  title_en: "KANSAI Tango Orquesta Concert \"Tango, tango, tango!\""
   venue: "大阪 堺 フェニーチェ堺小ホール"
+  venue_en: "Osaka, Sakai, Fenice Sakai Small Hall"
   category: tango
 
 - date: "2025.01.08"
@@ -144,61 +180,82 @@
 - date: "2024.11.30"
   title: "ICA plus milonga Yapa"
   venue: "東京"
+  venue_en: "Tokyo"
   category: tango
 
 - date: "2024.11.16"
   title: "El Puente 4th Anniversary"
   venue: "兵庫 宝塚 El Puente"
+  venue_en: "Hyogo, Takarazuka, El Puente"
   category: tango
 
 - date: "2024.11.09"
   title: "浅野学園剣道部 創部100周年 — 記念誌に寄稿"
+  title_en: "Asano Gakuen Kendo Club 100th Anniversary — Contributed to the commemorative booklet"
   venue: "横浜"
+  venue_en: "Yokohama"
   category: kendo
 
 - date: "2024.11.09"
   title: "第38回 霞が関官公庁剣道大会 — 厚生労働省チーム 3位"
+  title_en: "The 38th Kasumigaseki Government Offices Kendo Tournament — Ministry of Health, Labour and Welfare team, 3rd place"
   venue: "東京 東京武道館"
+  venue_en: "Tokyo, Tokyo Budokan"
   category: kendo
 
 - date: "2024.10.12"
   title: "第56回 全日本官公庁剣道大会 — 個人戦・団体戦に出場"
+  title_en: "The 56th All-Japan Government Offices Kendo Tournament — Competed in the individual and team events"
   venue: "東京 東京武道館"
+  venue_en: "Tokyo, Tokyo Budokan"
   category: kendo
 
 - date: "2024.09.22"
   title: "第33回 厚生労働省剣友会全国大会 — 個人戦 優勝"
+  title_en: "The 33rd National Tournament of the Ministry of Health, Labour and Welfare Kendo Club (Kenyu-kai) — Individual champion"
   venue: "千葉 大網白里 タイヨースポーツセンター"
+  venue_en: "Chiba, Oamishirasato, Taiyo Sports Center"
   category: kendo
 
 - date: "2024.09.21"
   title: "Kansai Tango Orquesta 駅構内に響くアルゼンチンタンゴ — 駅ナカでタンゴ（ミロンガ）2"
-  venue: "大阪 アートエリアB1（阪急電車なにわ駅）"
+  title_en: "Kansai Tango Orquesta — Argentine tango resonating in a station concourse (Eki-naka de Tango milonga) 2"
+  venue: "大阪 アートエリアB1（京阪電車なにわ橋駅）"
+  venue_en: "Osaka, Art Area B1"
   category: tango
 
 - date: "2024.08.25"
   title: "KANSAI Tango Orquesta Summer Concert"
   venue: "大阪 SPinniNG MiLL"
+  venue_en: "Osaka, SPinniNG MiLL"
   category: tango
 
 - date: "2024.08.18"
   title: "A Hana of music 音楽の仲間「花」第40回コンサート〜ひとひら、ひとひらの花びらでひとつの「花」を〜"
+  title_en: "A Hana of music — \"Hana\" 40th Concert — Petal by petal, together one flower"
   venue: "京都 京都コンサートホール アンサンブルホールムラタ"
+  venue_en: "Kyoto, Kyoto Concert Hall, Ensemble Hall Murata"
   category: tango
 
 - date: "2024.08.17"
   title: "けやきの夏祭り「アルゼンチンタンゴの演奏・ダンス♪」"
+  title_en: "Keyaki Summer Festival — Argentine tango performance and dance"
   venue: "京都"
+  venue_en: "Kyoto"
   category: tango
 
 - date: "2024.07.07"
   title: "第28回 西東京剣道選手権大会(東京都剣道選手権大会予選会) — 出場"
+  title_en: "The 28th West Tokyo Kendo Championship (qualifier for the Tokyo Kendo Championship) — Competed"
   venue: "東京 エスフォルタアリーナ八王子"
+  venue_en: "Tokyo, Esforta Arena Hachioji"
   category: kendo
 
 - date: "2024.06.29"
   title: "第60回 東京官公庁剣道大会 — 団体戦に出場"
+  title_en: "The 60th Tokyo Government Offices Kendo Tournament — Competed in the team event"
   venue: "東京 東京武道館"
+  venue_en: "Tokyo, Tokyo Budokan"
   category: kendo
 
 - date: "2024.05.29"
@@ -209,256 +266,342 @@
 
 - date: "2024.05.18"
   title: "Kansai Tango Orquesta 駅ナカでタンゴ"
-  venue: "大阪 アートエリアB1（阪急電車なにわ駅）"
+  title_en: "Kansai Tango Orquesta — Tango in the station (Eki-naka de Tango)"
+  venue: "大阪 アートエリアB1（京阪電車なにわ橋駅）"
+  venue_en: "Osaka, Art Area B1"
   category: tango
 
 - date: "2024.04.29"
   title: "剣道六段審査会 合格"
+  title_en: "Passed the 6th-dan kendo examination"
   venue: "京都 京都市体育館"
+  venue_en: "Kyoto, Kyoto City Gymnasium"
   category: kendo
 
 - date: "2024.04.07"
   title: "Parados Tango Dream"
   venue: "京都"
+  venue_en: "Kyoto"
   category: tango
 
 - date: "2024.03.31"
   title: "Memorias De CARLOS GARDEL -追憶 Osaka Tango meets Leonardo Pastore- 大阪公演"
+  title_en: "Memorias de CARLOS GARDEL — Remembrance: Osaka Tango meets Leonardo Pastore — Osaka performance"
   venue: "大阪 中央公会堂 大集会室"
+  venue_en: "Osaka, Osaka City Central Public Hall, Main Assembly Hall"
   category: tango
 
 - date: "2024.03.23"
   title: "サクラタンゴフェスティバル 2024 After Milonga"
+  title_en: "Sakura Tango Festival 2024 After Milonga"
   venue: "福岡 ティエンポ・イベロアメリカーノ"
+  venue_en: "Fukuoka, Tiempo Iberoamericano"
   category: tango
 
 - date: "2024.03.03"
   title: "アルゼンチンタンゴ Flash Mob"
+  title_en: "Argentine Tango Flash Mob"
   venue: "東京 東京芸術劇場前野外広場"
+  venue_en: "Tokyo, Outdoor plaza in front of the Tokyo Metropolitan Theatre"
   category: tango
 
 - date: "2024.02.29"
   title: "For export"
   venue: "東京 赤坂 Parados"
+  venue_en: "Tokyo, Akasaka, Parados"
   category: tango
 
 - date: "2024.02.18"
   title: "旭でレクチャーコンサート「アルゼンチンタンゴの世界」vol.4〜タンゴ＋ダンス＆タンゴ＋ジャズ〜"
+  title_en: "Asahi Lecture Concert \"The World of Argentine Tango\" vol. 4 — Tango + dance, and tango + jazz"
   venue: "大阪 大阪市立旭区民センター 小ホール"
+  venue_en: "Osaka, Osaka City Asahi Ward Center, Small Hall"
   category: tango
 
 - date: "2024.01.27"
   title: "KANSAI Tango Orquesta Concert -EL TANGO-"
   venue: "大阪 堺 フェニーチェ堺小ホール"
+  venue_en: "Osaka, Sakai, Fenice Sakai Small Hall"
   category: tango
 
 - date: "2023.12.10"
   title: "ハートフルに踊ろう El dia dio Tango KYOTO"
+  title_en: "Let's dance heartfully — El dia dio Tango KYOTO"
   venue: "京都 烏丸御池 水田ダンススタジオ"
+  venue_en: "Kyoto, Karasuma-Oike, Mizuta Dance Studio"
   category: tango
 
 - date: "2023.10.29"
   title: "広島タンゴ感謝祭 可惜夜ミロンガ（最終夜）"
+  title_en: "Hiroshima Tango Thanksgiving — \"Atarayo\" Milonga (final night)"
   venue: "広島 BAR & Space9"
+  venue_en: "Hiroshima, BAR & Space9"
   category: tango
 
 - date: "2023.10.21"
   title: "ビバ★タンゴ!! 〜アルゼンチンタンゴ 見て、聴いて、踊って楽しむ音楽とダンス〜"
+  title_en: "Viva Tango!! — Argentine tango: music and dance to watch, listen to and enjoy"
   venue: "岡山 ホワイトキャンバス"
+  venue_en: "Okayama, White Canvas"
   category: tango
 
 - date: "2023.10.07"
   title: "Kyoto Anniversary Milonga - ルンビータ20周年・ロドリゴ生誕70周年記念 -"
+  title_en: "Kyoto Anniversary Milonga — Celebrating Rumbita's 20th anniversary and Rodrigo's 70th birthday"
   venue: "京都 ヒューリックホール京都"
+  venue_en: "Kyoto, Hulic Hall Kyoto"
   category: tango
 
 - date: "2023.09.17"
   title: "Berretin Milonga"
   venue: "大阪 西天満 カフェティン・デ・ブエノスアイレス"
+  venue_en: "Osaka, Nishitenma, Cafetin de Buenos Aires"
   category: tango
 
 - date: "2023.08.20"
   title: "KANSAI Tango Orquesta Summer Concert"
   venue: "大阪 SPinniNG MiLL"
+  venue_en: "Osaka, SPinniNG MiLL"
   category: tango
 
 - date: "2023.08.19"
   title: "けやきの夏祭り「アルゼンチンタンゴの演奏・ダンス♪」"
+  title_en: "Keyaki Summer Festival — Argentine tango performance and dance"
   venue: "京都"
+  venue_en: "Kyoto"
   category: tango
 
 - date: "2023.08.13"
   title: "A Hana of music 音楽の仲間「花」第38回コンサート〜ひとひら、ひとひらの花びらでひとつの「花」を〜"
+  title_en: "A Hana of music — \"Hana\" 38th Concert — Petal by petal, together one flower"
   venue: "京都 京都コンサートホール アンサンブルホールムラタ"
+  venue_en: "Kyoto, Kyoto Concert Hall, Ensemble Hall Murata"
   category: tango
 
 - date: "2023.07.30"
   title: "第55回 東京都市町村総合体育大会 剣道競技 — 団体戦に出場"
+  title_en: "The 55th Tokyo Cities, Towns and Villages Comprehensive Sports Festival, Kendo — Competed in the team event"
   venue: "東京 福生市中央体育館"
+  venue_en: "Tokyo, Fussa City Central Gymnasium"
   category: kendo
 
 - date: "2023.06.16"
   title: "第9回すこやかサロン"
+  title_en: "The 9th Sukoyaka Salon"
   venue: "京都 京あんしんこども館"
+  venue_en: "Kyoto, Kyo-Anshin Kodomo-kan"
   category: tango
 
 - date: "2023.05.04"
   title: "第67回サルサ・カンデーラ 京都国際ラテンダンス・ミュージックフェスティバル"
+  title_en: "The 67th Salsa Candela — Kyoto International Latin Dance & Music Festival"
   venue: "京都 ヒューリックホール京都"
+  venue_en: "Kyoto, Hulic Hall Kyoto"
   category: tango
 
 - date: "2023.04.22"
   title: "El Puente Milonga"
   venue: "兵庫 宝塚 EL Puente"
+  venue_en: "Hyogo, Takarazuka, El Puente"
   category: tango
 
 - date: "2023.04.08"
   title: "サクラタンゴフェスティバル 2023 After Milonga"
+  title_en: "Sakura Tango Festival 2023 After Milonga"
   venue: "福岡 ティエンポ・イベロアメリカーノ"
+  venue_en: "Fukuoka, Tiempo Iberoamericano"
   category: tango
 
 - date: "2023.04.01"
   title: "Ritmo Milonga"
   venue: "東京 駒込タンゴ・リトゥモ"
+  venue_en: "Tokyo, Komagome Tango Ritmo"
   category: tango
 
 - date: "2023.03.04"
   title: "Tango Cinematico 〜ロマンティックタンゴと映画音楽の世界〜"
+  title_en: "Tango Cinematico — The world of romantic tango and film music"
   venue: "京都 文化パルク城陽プラネタリウム"
+  venue_en: "Kyoto, Bunka Parc Joyo Planetarium"
   category: tango
 
 - date: "2023.02.26"
   title: "EL CXUCLE Theater Show, 監修Facundo Piñero & Vanesa Villalba"
+  title_en: "EL CXUCLE Theater Show, supervised by Facundo Piñero & Vanesa Villalba"
   venue: "韓国 ソウル Mapo Art Center劇場"
+  venue_en: "Seoul, South Korea, Mapo Art Center Theater"
   category: tango
 
 - date: "2023.02.19"
   title: "A Hana of music 音楽の仲間「花」第37回コンサート〜ひとひら、ひとひらの花びらでひとつの「花」を〜"
+  title_en: "A Hana of music — \"Hana\" 37th Concert — Petal by petal, together one flower"
   venue: "京都 京都コンサートホール アンサンブルホールムラタ"
+  venue_en: "Kyoto, Kyoto Concert Hall, Ensemble Hall Murata"
   category: tango
 
 - date: "2023.01.15"
   title: "Tango Grelio第3版CD発売記念 京都公演"
+  title_en: "Tango Grelio 3rd edition CD release commemoration — Kyoto performance"
   venue: "京都 河原町 カフェ・ルンビータ"
+  venue_en: "Kyoto, Kawaramachi, Cafe Rumbita"
   category: tango
 
 - date: "2023.01.08"
   title: "花パーティー"
+  title_en: "Hana Party"
   venue: "京都 北山モノリス"
+  venue_en: "Kyoto, Kitayama Monolith"
   category: tango
 
 - date: "2022.12.04"
   title: "クリスマスミロンガ — Special Guests : Fabian Peralta y Josefina Bermudez"
+  title_en: "Christmas Milonga — Special Guests: Fabian Peralta y Josefina Bermudez"
   venue: "京都 祇園Para Dos"
+  venue_en: "Kyoto, Gion, Para Dos"
   category: tango
 
 - date: "2022.11.23"
   title: "KANSAI Tango Orquesta Autumn Concert"
   venue: "大阪 SPinniNG MiLL"
+  venue_en: "Osaka, SPinniNG MiLL"
   category: tango
 
 - date: "2022.09.03"
   title: "Millonga Berretin"
   venue: "大阪 西天満 カフェティン・デ・ブエノスアイレス"
+  venue_en: "Osaka, Nishitenma, Cafetin de Buenos Aires"
   category: tango
 
 - date: "2022.08.27"
   title: "El Puente Milonga"
   venue: "兵庫 宝塚 EL Puente"
+  venue_en: "Hyogo, Takarazuka, El Puente"
   category: tango
 
 - date: "2022.08.21"
   title: "アルゼンチンタンゴライブ"
+  title_en: "Argentine Tango Live"
   venue: "大阪 西天満 カフェティン・デ・ブエノスアイレス"
+  venue_en: "Osaka, Nishitenma, Cafetin de Buenos Aires"
   category: tango
 
 - date: "2022.08.20"
   title: "星空のアルゼンチンタンゴ"
+  title_en: "Argentine Tango under the Starry Sky"
   venue: "京都 文化パルク城陽プラネタリウム"
+  venue_en: "Kyoto, Bunka Parc Joyo Planetarium"
   category: tango
 
 - date: "2022.08.15"
   title: "第34回サルサ・カンデーラ ージャパン・アフロ・ラテン・フェス2022ー"
+  title_en: "The 34th Salsa Candela — Japan Afro-Latin Fest 2022"
   venue: "滋賀 旧大津公会堂"
+  venue_en: "Shiga, Former Otsu Public Hall"
   category: tango
 
 - date: "2022.08.14"
   title: "ELLA BAILA —Tango Live Show 2022, ナタリア・ヒルズ アジアツアー2022"
+  title_en: "ELLA BAILA — Tango Live Show 2022, Natalia Hills Asia Tour 2022"
   venue: "大阪 心斎橋Music Club JANUS"
+  venue_en: "Osaka, Shinsaibashi, Music Club JANUS"
   category: tango
 
 - date: "2022.07.17"
   title: "OSAKA TANGO WEEKEND"
   venue: "大阪 グランサロン十三"
+  venue_en: "Osaka, Grand Salon Juso"
   category: tango
 
 - date: "2022.06.05"
   title: "KANSAI Tango Orquesta Spring Live"
   venue: "大阪 SPinniNG MiLL"
+  venue_en: "Osaka, SPinniNG MiLL"
   category: tango
 
 - date: "2022.05.29"
   title: "Ensueno Milonga"
   venue: "大阪 西天満 カフェティン・デ・ブエノスアイレス"
+  venue_en: "Osaka, Nishitenma, Cafetin de Buenos Aires"
   category: tango
 
 - date: "2022.04.10"
   title: "サクラタンゴフェスティバル 2022 After Milonga"
+  title_en: "Sakura Tango Festival 2022 After Milonga"
   venue: "福岡 ティエンポ・イベロアメリカーノ"
+  venue_en: "Fukuoka, Tiempo Iberoamericano"
   category: tango
 
 - date: "2022.03.06"
   title: "タンゴ〜ブエノスアイレスの街角より〜"
+  title_en: "Tango — From a street corner in Buenos Aires"
   venue: "京都 文化パルク城陽プラネタリウム"
+  venue_en: "Kyoto, Bunka Parc Joyo Planetarium"
   category: tango
 
 - date: "2021.12.30"
   title: "Tango Fantasia 2021 〜タンゴ・ファンタシア2021〜"
+  title_en: "Tango Fantasia 2021"
   venue: "大阪 京橋ベロニカ"
+  venue_en: "Osaka, Kyobashi, Veronica"
   category: tango
 
 - date: "2021.12.27"
   title: "Love Passion Tangoshow 〜愛と情熱のタンゴショー〜"
+  title_en: "Love Passion Tango Show — Love and passion"
   venue: "大阪 京橋ベロニカ"
+  venue_en: "Osaka, Kyobashi, Veronica"
   category: tango
 
 - date: "2021.12.26"
   title: "ラッサウイルスの細胞侵入阻害薬の探索"
+  title_en: "Search for cell-entry inhibitors of Lassa virus"
   venue: "第12回スクリーニング学研究会"
+  venue_en: "The 12th Meeting of the Screening Science Study Group"
   category: research
   url: "https://researchmap.jp/torutakenaga/presentations/36383644"
 
 - date: "2021.11.16"
   title: "エストロゲン受容体作動薬はラッサウイルスの細胞侵入を阻害する"
+  title_en: "Estrogen receptor agonists inhibit cell entry of Lassa virus"
   venue: "第68回日本ウイルス学会学術集会"
+  venue_en: "The 68th Annual Meeting of the Japanese Society for Virology"
   category: research
   url: "https://researchmap.jp/torutakenaga/presentations/36383652"
 
 - date: "2021.11.04"
   title: "危ないウイルス研究はどうやってするの？（招待講演）"
+  title_en: "How are dangerous viruses studied? (Invited lecture)"
   venue: "京都大学高大連携・北海道岩見沢東高等学校 オンデマンド"
+  venue_en: "Kyoto University High School–University Collaboration Program, Hokkaido Iwamizawa Higashi High School (on demand)"
   category: research
   url: "https://researchmap.jp/torutakenaga/presentations/36383107"
 
 - date: "2021.11"
   title: "ウイルス病原体研究のためのhiPSCs由来気道オンチップモデルの開発"
+  title_en: "Development of an hiPSC-derived airway-on-a-chip model for studying viral pathogens"
   venue: "化学とマイクロ・ナノシステム学会 第44回研究会 CHEMINAS 44"
+  venue_en: "The 44th Meeting of the Society for Chemistry and Micro-Nano Systems (CHEMINAS 44)"
   category: research
   url: "https://researchmap.jp/torutakenaga/presentations/36383660"
 
 - date: "2021.11.03"
   title: "Platinum Milonga Special"
   venue: "東京 銀座 リベルタンゴ"
+  venue_en: "Tokyo, Ginza, Libertango"
   category: tango
 
 - date: "2021.10.31"
   title: "アルゼンチンタンゴショー"
+  title_en: "Argentine Tango Show"
   venue: "大阪 西天満 カフェティン・デ・ブエノスアイレス"
+  venue_en: "Osaka, Nishitenma, Cafetin de Buenos Aires"
   category: tango
 
 - date: "2021.10.30"
   title: "アルゼンチンタンゴショー"
+  title_en: "Argentine Tango Show"
   venue: "大阪 西天満 カフェティン・デ・ブエノスアイレス"
+  venue_en: "Osaka, Nishitenma, Cafetin de Buenos Aires"
   category: tango
 
 - date: "2021.09.03"
@@ -469,101 +612,135 @@
 
 - date: "2021.08.29"
   title: "真夏の夜のタンゴ"
+  title_en: "Midsummer Night's Tango"
   venue: "京都 文化パルク城陽プラネタリウム"
+  venue_en: "Kyoto, Bunka Parc Joyo Planetarium"
   category: tango
 
 - date: "2021.08.15"
   title: "Development of cell entry inhibitors for Lassa virus（生体の科学 特集）"
+  title_en: "Development of cell entry inhibitors for Lassa virus (feature article in \"Seitai no Kagaku\")"
   venue: "医学書院 / 生体の科学"
+  venue_en: "Igaku-Shoin / Seitai no Kagaku"
   category: research
   url: "https://researchmap.jp/torutakenaga/books_etc/36371807"
 
 - date: "2021.03.20"
   title: "Akari Milonga in Kyoto"
   venue: "京都 烏丸御池 灯"
+  venue_en: "Kyoto, Karasuma-Oike, Akari"
   category: tango
 
 - date: "2021.02.20"
   title: "アルゼンチンタンゴ〜100年の情熱〜"
+  title_en: "Argentine Tango — 100 years of passion"
   venue: "京都 文化パルク城陽プラネタリウム"
+  venue_en: "Kyoto, Bunka Parc Joyo Planetarium"
   category: tango
 
 - date: "2020.12.20"
   title: "カンサイ・タンゴ・オルケスタ 第2回定期コンサート"
+  title_en: "Kansai Tango Orquesta 2nd Regular Concert"
   venue: "大阪 豊中市文化芸術センター 小ホール"
+  venue_en: "Osaka, Toyonaka City Performing Arts Center, Small Hall"
   category: tango
 
 - date: "2020.12.16"
   title: "ウイルスはどうやって感染するの？（招待講演）"
+  title_en: "How do viruses infect? (Invited lecture)"
   venue: "京都大学高大連携・大阪桐蔭高等学校 オンデマンド"
+  venue_en: "Kyoto University High School–University Collaboration Program, Osaka Toin High School (on demand)"
   category: research
   url: "https://researchmap.jp/torutakenaga/presentations/36383099"
 
 - date: "2020.11.23"
   title: "アルゼンチンタンゴショー"
+  title_en: "Argentine Tango Show"
   venue: "京都 烏丸御池 灯"
+  venue_en: "Kyoto, Karasuma-Oike, Akari"
   category: tango
 
 - date: "2020.11.19"
   title: "ウイルスの薬やワクチンの研究（招待講演）"
+  title_en: "Research on antiviral drugs and vaccines (Invited lecture)"
   venue: "京都大学高大連携・兵庫県立明石北高等学校 オンデマンド"
+  venue_en: "Kyoto University High School–University Collaboration Program, Hyogo Prefectural Akashi-Kita High School (on demand)"
   category: research
   url: "https://researchmap.jp/torutakenaga/presentations/36382424"
 
 - date: "2020.11.16"
   title: "東洋紡総合研究所60周年イベント"
+  title_en: "Toyobo Research Institute 60th Anniversary Event"
   venue: "滋賀"
+  venue_en: "Shiga"
   category: tango
 
 - date: "2020.10.29"
   title: "ウイルスはどうやって感染するの？（招待講演）"
+  title_en: "How do viruses infect? (Invited lecture)"
   venue: "京都大学高大連携・福岡県立春日高等学校 オンデマンド"
+  venue_en: "Kyoto University High School–University Collaboration Program, Fukuoka Prefectural Kasuga High School (on demand)"
   category: research
   url: "https://researchmap.jp/torutakenaga/presentations/36383070"
 
 - date: "2020.09"
   title: "機能既知化合物ライブラリーを用いたラッサウイルス侵入阻害薬の探索"
+  title_en: "Search for Lassa virus entry inhibitors using a library of compounds with known functions"
   venue: "9th Negative Strand Virus-Japan Symposium"
   category: research
   url: "https://researchmap.jp/torutakenaga/presentations/36383665"
 
 - date: "2019.11.30"
   title: "ウイルスは生物か？（招待講演）"
+  title_en: "Are viruses living things? (Invited lecture)"
   venue: "京都大学高大連携・麗澤高等学校"
+  venue_en: "Kyoto University High School–University Collaboration Program, Reitaku High School"
   category: research
   url: "https://researchmap.jp/torutakenaga/presentations/36383055"
 
 - date: "2019.11.18"
   title: "ウイルスは生物か？（招待講演）"
+  title_en: "Are viruses living things? (Invited lecture)"
   venue: "京都大学高大連携・広島市立舟入高等学校"
+  venue_en: "Kyoto University High School–University Collaboration Program, Hiroshima Municipal Funairi High School"
   category: research
   url: "https://researchmap.jp/torutakenaga/presentations/36382976"
 
 - date: "2019.10.22"
   title: "カンサイ・タンゴ・オルケスタ 第1回記念コンサート"
+  title_en: "Kansai Tango Orquesta 1st Anniversary Concert"
   venue: "大阪 すてっぷホール"
+  venue_en: "Osaka, Step Hall"
   category: tango
 
 - date: "2019.06.07"
   title: "関西領事団会合「Latin American Evening」"
+  title_en: "Kansai Consular Corps meeting \"Latin American Evening\""
   venue: "大阪"
+  venue_en: "Osaka"
   category: tango
 
 - date: "2018.12.15"
   title: "エボラウイルスから学ぶこと（招待講演）"
+  title_en: "What we learn from Ebola virus (Invited lecture)"
   venue: "京都大学高大連携・麗澤高等学校"
+  venue_en: "Kyoto University High School–University Collaboration Program, Reitaku High School"
   category: research
   url: "https://researchmap.jp/torutakenaga/presentations/36382280"
 
 - date: "2018.10.12"
   title: "ウイルスは生物か？（招待講演）"
+  title_en: "Are viruses living things? (Invited lecture)"
   venue: "京都大学高大連携・鳥取県立倉吉西高等学校"
+  venue_en: "Kyoto University High School–University Collaboration Program, Tottori Prefectural Kurayoshi Nishi High School"
   category: research
   url: "https://researchmap.jp/torutakenaga/presentations/36382241"
 
 - date: "2018.09"
   title: "ラテンバザール展 タンゴ"
+  title_en: "Latin Bazaar Exhibition — Tango"
   venue: "大阪 阪急うめだ店"
+  venue_en: "Osaka, Hankyu Umeda Main Store"
   category: tango
 
 - date: "2018.06.29"
@@ -580,7 +757,9 @@
 
 - date: "2018"
   title: "女優 杉本彩の誕生日パーティーにて杉本彩本人と共演"
+  title_en: "Performed with actress Aya Sugimoto at her birthday party"
   venue: "京都 祇園Repos"
+  venue_en: "Kyoto, Gion, Repos"
   category: tango
 
 - date: "2017.12.18"
@@ -591,48 +770,62 @@
 
 - date: "2017.12.09"
   title: "ウイルスは生物か？（招待講演）"
+  title_en: "Are viruses living things? (Invited lecture)"
   venue: "京都大学高大連携・福岡県立福岡高等学校"
+  venue_en: "Kyoto University High School–University Collaboration Program, Fukuoka Prefectural Fukuoka High School"
   category: research
   url: "https://researchmap.jp/torutakenaga/presentations/36382170"
 
 - date: "2017.11.08"
   title: "ワクチンと治療薬の違い（招待講演）"
+  title_en: "The difference between vaccines and therapeutics (Invited lecture)"
   venue: "京都大学高大連携・京都府立峰山高等学校"
+  venue_en: "Kyoto University High School–University Collaboration Program, Kyoto Prefectural Mineyama High School"
   category: research
   url: "https://researchmap.jp/torutakenaga/presentations/36382196"
 
 - date: "2017.10.11"
   title: "ウイルスは生物か？（招待講演）"
+  title_en: "Are viruses living things? (Invited lecture)"
   venue: "京都大学高大連携・鳥取県立倉吉西高等学校"
+  venue_en: "Kyoto University High School–University Collaboration Program, Tottori Prefectural Kurayoshi Nishi High School"
   category: research
   url: "https://researchmap.jp/torutakenaga/presentations/36382182"
 
 - date: "2017.09"
   title: "ラッサウイルス感染を中和するモノクローナル抗体の作出"
+  title_en: "Generation of monoclonal antibodies that neutralize Lassa virus infection"
   venue: "6th Negative Strand Virus-Japan Symposium"
   category: research
   url: "https://researchmap.jp/torutakenaga/presentations/36383670"
 
 - date: "2017.09"
   title: "抗病原性H5N1鳥インフルエンザウイルス感染の重症化には感染初期の転写因子活性抑制が関与する"
+  title_en: "Suppression of transcription factor activity in the early phase of infection contributes to the severity of highly pathogenic H5N1 avian influenza virus infection"
   venue: "6th Negative Strand Virus-Japan Symposium"
   category: research
   url: "https://researchmap.jp/torutakenaga/presentations/36383667"
 
 - date: "2017"
   title: "女優 杉本彩の誕生日パーティーにて杉本彩本人と共演"
+  title_en: "Performed with actress Aya Sugimoto at her birthday party"
   venue: "京都 祇園Repos"
+  venue_en: "Kyoto, Gion, Repos"
   category: tango
 
 - date: "2016.12.08"
   title: "ワクチンと治療薬の違い（招待講演）"
+  title_en: "The difference between vaccines and therapeutics (Invited lecture)"
   venue: "京都大学高大連携・宮城県気仙沼高等学校"
+  venue_en: "Kyoto University High School–University Collaboration Program, Miyagi Prefectural Kesennuma High School"
   category: research
   url: "https://researchmap.jp/torutakenaga/presentations/36382112"
 
 - date: "2016.12.03"
   title: "ワクチンと治療薬の違い（招待講演）"
+  title_en: "The difference between vaccines and therapeutics (Invited lecture)"
   venue: "京都大学高大連携・昭和薬科大学附属高等学校"
+  venue_en: "Kyoto University High School–University Collaboration Program, Showa Pharmaceutical University Affiliated High School"
   category: research
   url: "https://researchmap.jp/torutakenaga/presentations/36381973"
 
@@ -642,17 +835,31 @@
   category: research
   url: "https://researchmap.jp/torutakenaga/published_papers/49254576"
 
+- date: "2009"
+  title: "Dublin Kendo Kobukai(ダブリンの剣道クラブ)から名誉会員として表彰"
+  title_en: "Named an honorary member of Dublin Kendo Kobukai"
+  venue: "アイルランド ダブリン"
+  venue_en: "Dublin, Ireland"
+  category: kendo
+
+
 - date: "2008.03.21"
   title: "第22回 欧州剣道選手権大会 — アイルランド代表チームのアシスタントコーチ"
+  title_en: "The 22nd European Kendo Championships — Assistant coach of the Ireland national team"
   venue: "フィンランド ヘルシンキ"
+  venue_en: "Helsinki, Finland"
   category: kendo
 
 - date: "2005"
   title: "トリニティ・カレッジ・ダブリン在学中(2005〜2009)、剣道部を立ち上げて稽古"
+  title_en: "Started a kendo club at Trinity College Dublin and trained there (2005–2009)"
   venue: "アイルランド ダブリン"
+  venue_en: "Dublin, Ireland"
   category: kendo
 
 - date: "2005"
-  title: "Dublin Kendo Kobukai(ダブリンの剣道クラブ)で在学中(2005〜2009)指導 — のち名誉会員として表彰"
+  title: "Dublin Kendo Kobukai(ダブリンの剣道クラブ)で在学中(2005〜2009)指導"
+  title_en: "Taught at Dublin Kendo Kobukai (2005–2009)"
   venue: "アイルランド ダブリン"
+  venue_en: "Dublin, Ireland"
   category: kendo

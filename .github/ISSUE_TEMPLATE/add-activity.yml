@@ -29,10 +29,20 @@ body:
     validations:
       required: true
   - type: input
+    id: title_en
+    attributes:
+      label: English title (optional)
+      description: 題名が日本語のときの英語表記。空なら、英語表示でも上の題名を使います
+  - type: input
     id: venue
     attributes:
       label: Venue (optional)
       description: 会場や掲載誌など
+  - type: input
+    id: venue_en
+    attributes:
+      label: English venue (optional)
+      description: 会場の英語表記
   - type: input
     id: url
     attributes:
