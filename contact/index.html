@@ -1,0 +1,45 @@
+---
+layout: page
+nav: contact
+title: "Get in touch"
+description: "Contact Toru Takenaga about research, tango, talks and media. お問い合わせ。"
+permalink: /contact/
+---
+<!-- address is assembled by JS (see _config.yml: contact_user / contact_domain) -->
+<section class="contact-wrap" data-u="{{ site.contact_user }}" data-d="{{ site.contact_domain }}">
+  <h1><span class="t-en">Get in touch</span><span class="t-ja">お問い合わせ</span></h1>
+  <p>
+    <span class="t-en">Pick what fits — your email app opens with a subject ready. To set up a meeting, use the <a href="/meeting/">calendar</a>.</span>
+    <span class="t-ja">件名入力済みのメールが開きます。打ち合わせは<a href="/meeting/">カレンダー</a>から予約できます。</span>
+  </p>
+
+  <div class="contact-item">
+    <h2><span class="t-en">Research</span><span class="t-ja">研究</span></h2>
+    <p><span class="t-en">Research collaboration and consultation.</span><span class="t-ja">共同研究・研究に関するご相談。</span></p>
+    <p class="s"><span class="t-en">Please include: affiliation, purpose, timeline</span><span class="t-ja">ご所属・目的・ご希望の時期をお書き添えください。</span></p>
+    <p><a class="contact-link" href="/meeting/" data-subject="[Research] Collaboration inquiry"><span class="t-en">Email →</span><span class="t-ja">メール →</span></a></p>
+  </div>
+  <div class="contact-item">
+    <h2><span class="t-en">Tango</span><span class="t-ja">タンゴ</span></h2>
+    <p><span class="t-en">Performances and organizing events.</span><span class="t-ja">出演とイベントの主催のご相談。</span></p>
+    <p class="s"><span class="t-en">Please include: what you have in mind, date, venue</span><span class="t-ja">ご希望の内容・日時・会場をお書き添えください。</span></p>
+    <p><a class="contact-link" href="/meeting/" data-subject="[Tango] Performance / event inquiry"><span class="t-en">Email →</span><span class="t-ja">メール →</span></a></p>
+  </div>
+  <div class="contact-item">
+    <h2><span class="t-en">Talks &amp; Media</span><span class="t-ja">講演・メディア</span></h2>
+    <p><span class="t-en">Talks, writing, and interviews.</span><span class="t-ja">講演・執筆・取材のご相談。</span></p>
+    <p class="s"><span class="t-en">Please include: topic, date, format</span><span class="t-ja">テーマ・日時・形式をお書き添えください。</span></p>
+    <p><a class="contact-link" href="/meeting/" data-subject="[Talks &amp; Media] Inquiry"><span class="t-en">Email →</span><span class="t-ja">メール →</span></a></p>
+  </div>
+  <noscript><p class="s">Please enable JavaScript, or use the <a href="/meeting/">calendar</a>. / JavaScriptを有効にするか、<a href="/meeting/">カレンダー</a>からご連絡ください。</p></noscript>
+</section>
+<script>
+// メールアドレスをHTMLに平文で置かず、表示時に組み立てる(スパム収集対策)
+document.addEventListener('DOMContentLoaded', function() {
+  var box = document.querySelector('.contact-wrap');
+  var addr = box.dataset.u + '@' + box.dataset.d;
+  box.querySelectorAll('.contact-link').forEach(function(a) {
+    a.href = 'mailto:' + addr + '?subject=' + encodeURIComponent(a.dataset.subject);
+  });
+});
+</script>
