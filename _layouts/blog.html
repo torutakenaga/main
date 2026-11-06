@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include blog-head.html %}
+</head>
+<body>
+{% include blog-nav.html %}
+<main class="wrap">
+  <div class="kicker">Blog</div>
+  <h1 class="page-title">Notes</h1>
+  <p class="lede">Research, tango and kendo. 研究・タンゴ・剣道についてのメモ。</p>
+
+  {% if site.posts.size > 0 %}
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <li class="post-item" lang="{{ post.lang | default: 'ja' }}">
+      {% include post-meta.html post=post %}
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.description | default: post.excerpt | strip_html | strip_newlines | truncate: 160 }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p class="empty">Posts will appear here. / 記事は準備中です。</p>
+  {% endif %}
+</main>
+{% include blog-footer.html %}
+</body>
+</html>

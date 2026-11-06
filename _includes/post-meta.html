@@ -1,0 +1,15 @@
+{%- comment -%}日付 / 分野 / 言語 / 読了時間。引数: include.post{%- endcomment -%}
+{%- assign p = include.post -%}
+{%- assign topic = p.topic | default: "other" -%}
+{%- assign plain = p.content | strip_html | strip_newlines -%}
+{%- if p.lang == "en" -%}
+  {%- assign mins = plain | number_of_words | divided_by: 200 | plus: 1 -%}
+{%- else -%}
+  {%- assign mins = plain | size | divided_by: 500 | plus: 1 -%}
+{%- endif -%}
+<div class="meta">
+  <span>{{ p.date | date: "%Y.%m.%d" }}</span>
+  <span class="pill pill-{{ topic }}">{{ topic }}</span>
+  <span>{% if p.lang == "en" %}EN{% else %}JA{% endif %}</span>
+  <span>{{ mins }} min read</span>
+</div>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'ja' }}">
+<head>
+{% include blog-head.html %}
+<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+</head>
+<body>
+{% include blog-nav.html %}
+<main class="wrap">
+  <article>
+    <header class="post-head">
+      <div class="kicker">Blog</div>
+      <h1>{{ page.title }}</h1>
+      {% include post-meta.html post=page %}
+    </header>
+
+    {% if page.tldr %}
+    <p class="tldr"><b>TL;DR</b>{{ page.tldr }}</p>
+    {% endif %}
+
+    <div class="prose">
+      {{ content }}
+    </div>
+  </article>
+
+  <div class="pager">
+    <span>{% if page.next %}<a href="{{ page.next.url }}">← {{ page.next.title }}</a>{% endif %}</span>
+    <span>{% if page.previous %}<a href="{{ page.previous.url }}">{{ page.previous.title }} →</a>{% endif %}</span>
+  </div>
+  <a class="back" href="/blog/">← All posts</a>
+</main>
+{% include blog-footer.html %}
+</body>
+</html>

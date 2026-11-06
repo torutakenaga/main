@@ -2,6 +2,10 @@ title: "Toru Takenaga"
 url: "https://torutakenaga.com"
 markdown: kramdown
 theme: minima
+description: "Research scientist, Argentine tango dancer, kendo 6th dan. Based in Tokyo."
+
+# ブログ記事のURL: /blog/記事名/
+permalink: /blog/:title/
 
 # 連絡先メール(HTMLに平文で出さず、JSで組み立てる)
 # 独自ドメインの転送アドレスが使えるようになったら、ここだけ書き換える
