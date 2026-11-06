@@ -1,0 +1,11 @@
+<footer class="foot">
+  <span>© 2026 torutakenaga.com</span>
+  {% if include.rss %}<a href="/feed.xml">RSS</a>{% endif %}
+</footer>
+<script>
+function toggleLang() {
+  var next = document.documentElement.getAttribute('data-lang') === 'ja' ? 'en' : 'ja';
+  document.documentElement.setAttribute('data-lang', next);
+  try { localStorage.setItem('lang', next); } catch (e) {}
+}
+</script>

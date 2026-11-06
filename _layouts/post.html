@@ -5,30 +5,32 @@
 <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
 </head>
 <body>
-{% include blog-nav.html %}
-<main class="wrap">
+{% include site-nav.html active="blog" %}
+{%- assign plain = content | strip_html | strip_newlines -%}
+{%- if page.lang == "en" -%}
+  {%- assign mins = plain | number_of_words | divided_by: 200 | plus: 1 -%}
+{%- else -%}
+  {%- assign mins = plain | size | divided_by: 500 | plus: 1 -%}
+{%- endif -%}
+<main class="col">
   <article>
-    <header class="post-head">
-      <div class="kicker">Blog</div>
+    <section>
       <h1>{{ page.title }}</h1>
-      {% include post-meta.html post=page %}
-    </header>
-
-    {% if page.tldr %}
-    <p class="tldr"><b>TL;DR</b>{{ page.tldr }}</p>
-    {% endif %}
-
-    <div class="prose">
+      <p class="post-meta">{{ page.date | date: "%Y.%m.%d" }} · {% include topic.html topic=page.topic %} · {% if page.lang == "en" %}English{% else %}日本語{% endif %} · {{ mins }} min</p>
+      {% if page.tldr %}<p class="tldr"><b>TL;DR</b>{{ page.tldr }}</p>{% endif %}
+    </section>
+    <section class="prose">
       {{ content }}
-    </div>
+    </section>
   </article>
-
-  <div class="pager">
-    <span>{% if page.next %}<a href="{{ page.next.url }}">← {{ page.next.title }}</a>{% endif %}</span>
-    <span>{% if page.previous %}<a href="{{ page.previous.url }}">{{ page.previous.title }} →</a>{% endif %}</span>
-  </div>
-  <a class="back" href="/blog/">← All posts</a>
+  <section>
+    <div class="pager">
+      <span>{% if page.next %}<a href="{{ page.next.url }}">← {{ page.next.title }}</a>{% endif %}</span>
+      <span>{% if page.previous %}<a href="{{ page.previous.url }}">{{ page.previous.title }} →</a>{% endif %}</span>
+    </div>
+    <p><a href="/blog/">← <span class="t-en">All posts</span><span class="t-ja">記事一覧</span></a></p>
+  </section>
 </main>
-{% include blog-footer.html %}
+{% include site-footer.html rss=true %}
 </body>
 </html>

@@ -17,6 +17,14 @@ Nothing is published until you merge the pull request. Check the entries first.
 - Preprints are skipped on purpose (the list shows published versions).
 - Titles or venues that look like they contain money terms are flagged in the pull request.
 
+## Languages (EN / JA)
+
+The site is English-first with a Japanese version on the same page. The button at the top right switches the language and is remembered in the browser (`?lang=ja` / `?lang=en` also works).
+
+- Page text: write `<span class="t-en">…</span><span class="t-ja">…</span>`.
+- Activity list (`_data/log.yml`): `title` and `venue` are shown in both languages. Add `title_en` / `title_ja` (and `venue_en` / `venue_ja`) to show different text per language.
+- Blog posts: one language per post (`lang: ja` or `en`). Only the surrounding labels switch.
+
 ## Writing a blog post
 
 The blog lives at `/blog/` (Jekyll posts, same look as the home page, RSS at `/feed.xml`).

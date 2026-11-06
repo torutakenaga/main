@@ -1,0 +1,14 @@
+<header class="bar">
+  <div class="bar-in">
+    <a class="logo" href="/"><span class="t-en">Toru Takenaga</span><span class="t-ja">武長 徹</span></a>
+    <ul class="links">
+      <li><a href="https://orcid.org/0000-0002-1277-4156" target="_blank" rel="noopener"><span class="t-en">Research</span><span class="t-ja">研究</span></a></li>
+      <li><a href="/#tango"><span class="t-en">Tango</span><span class="t-ja">タンゴ</span></a></li>
+      <li><a href="/#kendo"><span class="t-en">Kendo</span><span class="t-ja">剣道</span></a></li>
+      <li><a{% if include.active == "blog" %} class="current"{% endif %} href="/blog/"><span class="t-en">Blog</span><span class="t-ja">ブログ</span></a></li>
+      <li><a href="/#booking"><span class="t-en">Meeting</span><span class="t-ja">打ち合わせ</span></a></li>
+      <li><a href="/#contact"><span class="t-en">Contact</span><span class="t-ja">連絡先</span></a></li>
+    </ul>
+    <button class="lang-btn" type="button" onclick="toggleLang()" aria-label="Switch language / 言語を切り替え"><span class="t-en">日本語</span><span class="t-ja">English</span></button>
+  </div>
+</header>
