@@ -14,32 +14,35 @@
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Noto+Sans+JP:wght@100;400&display=swap" rel="stylesheet">
 <style>
 :root {
-  --bg: #FFFFFF; --ink: #111111; --ink2: #666666; --rule: #E6E6E6; --accent: #1F5C3E;
+  --bg: #FFFFFF; --ink: #111111; --ink2: #444444; --rule: #E6E6E6; --accent: #1F5C3E;
   --s: 13px; --m: 16px; --l: 24px;
-  --f: 'Inter', 'Noto Sans JP', -apple-system, 'Hiragino Sans', sans-serif;
+  --f: 'Barlow Condensed', 'Noto Sans JP', -apple-system, 'Hiragino Sans', sans-serif;
+  /* 英語表示は Barlow Condensed、日本語表示は Noto Sans JP の細字。日本語は細いので、見出しは少し太くする */
+  --w-body: 400; --w-head: 600;
 }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
-body { background: var(--bg); color: var(--ink); font: 400 var(--m)/1.8 var(--f); -webkit-font-smoothing: antialiased; }
+html[data-lang="ja"] { --w-body: 100; --w-head: 400; }
+body { background: var(--bg); color: var(--ink); font: var(--w-body) var(--m)/1.8 var(--f); -webkit-font-smoothing: antialiased; }
 a { color: var(--accent); text-underline-offset: 3px; }
-h1, h2, h3 { font-size: var(--l); font-weight: 700; line-height: 1.4; letter-spacing: -0.01em; }
+h1, h2, h3 { font-size: var(--l); font-weight: var(--w-head); line-height: 1.4; }
 html:not([data-lang="ja"]) .t-ja { display: none !important; }
 html[data-lang="ja"] .t-en { display: none !important; }
 small, .s { font-size: var(--s); color: var(--ink2); }
-.lead { font-size: var(--l); font-weight: 700; line-height: 1.4; }
+.lead { font-size: var(--l); font-weight: var(--w-head); line-height: 1.4; }
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
 
 .bar { border-bottom: 1px solid var(--rule); }
 .bar-in { max-width: 720px; margin: 0 auto; padding: 0 24px; height: 56px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
-.logo { font-weight: 700; font-size: var(--m); color: var(--ink); text-decoration: none; white-space: nowrap; }
+.logo { font-weight: var(--w-head); font-size: var(--m); color: var(--ink); text-decoration: none; white-space: nowrap; }
 .links { display: flex; gap: 20px; list-style: none; margin-left: auto; }
 .links a { font-size: var(--s); color: var(--ink2); text-decoration: none; }
 .links a:hover { color: var(--ink); }
 .links a.current { color: var(--accent); }
-.lang-btn { font: inherit; font-size: var(--s); color: var(--ink2); background: none; border: 1px solid var(--rule); border-radius: 4px; padding: 2px 10px; cursor: pointer; }
+.lang-btn { font: inherit; font-weight: inherit; font-size: var(--s); color: var(--ink2); background: none; border: 1px solid var(--rule); border-radius: 4px; padding: 2px 10px; cursor: pointer; }
 .lang-btn:hover { color: var(--ink); border-color: var(--ink2); }
 
 .col { max-width: 720px; margin: 0 auto; padding: 0 24px; }
@@ -55,14 +58,16 @@ section h2 + p, section h1 + p { margin-top: 8px; }
 .row a:hover { color: var(--accent); }
 .row small { display: block; }
 .tabs { display: flex; gap: 20px; }
-.tab { font: inherit; font-size: var(--s); color: var(--ink2); background: none; border: 0; border-bottom: 2px solid transparent; padding: 4px 0; cursor: pointer; }
+.tab { font: inherit; font-weight: inherit; font-size: var(--s); color: var(--ink2); background: none; border: 0; border-bottom: 2px solid transparent; padding: 4px 0; cursor: pointer; }
 .tab:hover { color: var(--ink); }
 .tab.active { color: var(--ink); border-bottom-color: var(--ink); }
 .empty { color: var(--ink2); }
 
 .post-meta { font-size: var(--s); color: var(--ink2); }
 .tldr { border-left: 2px solid var(--ink); padding-left: 16px; }
-.tldr b { font-weight: 700; margin-right: 8px; }
+.tldr b { font-weight: var(--w-head); margin-right: 8px; }
+.prose:lang(ja) { font-weight: 100; }
+.prose:lang(en) { font-weight: 400; }
 .prose > * + * { margin-top: 1.1em; }
 .prose h2 { margin-top: 2em; }
 .prose h3 { font-size: var(--m); margin-top: 1.6em; }
@@ -76,7 +81,7 @@ section h2 + p, section h1 + p { margin-top: 8px; }
 .prose pre code { background: none; padding: 0; }
 .prose table { border-collapse: collapse; width: 100%; font-size: var(--s); display: block; overflow-x: auto; }
 .prose th, .prose td { border-bottom: 1px solid var(--rule); padding: 8px 10px; text-align: left; vertical-align: top; }
-.prose th { font-weight: 700; }
+.prose th { font-weight: var(--w-head); }
 .prose hr { border: 0; border-top: 1px solid var(--rule); }
 .prose .footnotes { font-size: var(--s); color: var(--ink2); }
 .pager { display: flex; justify-content: space-between; gap: 16px; font-size: var(--s); }

@@ -19,7 +19,7 @@
       <p class="post-meta">{{ page.date | date: "%Y.%m.%d" }} · {% include topic.html topic=page.topic %} · {% if page.lang == "en" %}English{% else %}日本語{% endif %} · {{ mins }} min</p>
       {% if page.tldr %}<p class="tldr"><b>TL;DR</b>{{ page.tldr }}</p>{% endif %}
     </section>
-    <section class="prose">
+    <section class="prose" lang="{{ page.lang | default: 'ja' }}">
       {{ content }}
     </section>
   </article>
