@@ -10,6 +10,12 @@ layout: null
   <url>
     <loc>https://torutakenaga.com/blog/</loc>
   </url>
+  <url>
+    <loc>https://torutakenaga.com/meeting/</loc>
+  </url>
+  <url>
+    <loc>https://torutakenaga.com/contact/</loc>
+  </url>
 {% for post in site.posts %}  <url>
     <loc>https://torutakenaga.com{{ post.url }}</loc>
     <lastmod>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</lastmod>
