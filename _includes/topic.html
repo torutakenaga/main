@@ -1,0 +1,7 @@
+{%- assign t = include.topic | default: "other" -%}
+{%- case t -%}
+{%- when "research" -%}<span class="t-en">Research</span><span class="t-ja">研究</span>
+{%- when "tango" -%}<span class="t-en">Tango</span><span class="t-ja">タンゴ</span>
+{%- when "kendo" -%}<span class="t-en">Kendo</span><span class="t-ja">剣道</span>
+{%- else -%}<span class="t-en">Other</span><span class="t-ja">その他</span>
+{%- endcase -%}

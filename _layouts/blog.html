@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include blog-head.html %}
+</head>
+<body>
+{% include site-nav.html active="blog" %}
+<main class="col">
+  <section>
+    <h1><span class="t-en">Blog</span><span class="t-ja">ブログ</span></h1>
+    <p><span class="t-en">Notes on research, tango and kendo.</span><span class="t-ja">研究・タンゴ・剣道についてのメモ。</span></p>
+
+    {% if site.posts.size > 0 %}
+    <ul class="rows">
+      {% for post in site.posts %}
+      <li class="row" lang="{{ post.lang | default: 'ja' }}">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+        <div>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          <small>{% include topic.html topic=post.topic %} · {% if post.lang == "en" %}English{% else %}日本語{% endif %}</small>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="empty"><span class="t-en">Posts will appear here.</span><span class="t-ja">記事は準備中です。</span></p>
+    {% endif %}
+  </section>
+</main>
+{% include site-footer.html rss=true %}
+</body>
+</html>

@@ -1,0 +1,21 @@
+{%- comment -%}ブログ(一覧・記事)共通の head。ホームと同じ配色・フォント。外部スクリプトなし。{%- endcomment -%}
+{%- assign pg_title = page.title | default: "Blog" -%}
+{%- assign pg_desc = page.description | default: site.description -%}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ pg_title }} — Toru Takenaga</title>
+<meta name="description" content="{{ pg_desc | strip_html | strip_newlines | escape }}">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<link rel="alternate" type="application/atom+xml" title="Toru Takenaga" href="/feed.xml">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+<meta property="og:site_name" content="Toru Takenaga">
+<meta property="og:title" content="{{ pg_title | escape }}">
+<meta property="og:description" content="{{ pg_desc | strip_html | strip_newlines | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="https://torutakenaga.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'">
+{% include site-style.html %}
