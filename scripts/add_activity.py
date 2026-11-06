@@ -14,7 +14,8 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import logtools as lt  # noqa: E402
 
-FIELDS = {"category": "Category", "date": "Date", "title": "Title", "venue": "Venue", "url": "URL"}
+FIELDS = {"category": "Category", "date": "Date", "title": "Title", "title_en": "English title",
+          "venue": "Venue", "venue_en": "English venue", "url": "URL"}
 
 
 def parse_form(body):
@@ -51,6 +52,8 @@ def main():
     date = got["date"].strip()
     title = lt.clean(got["title"])
     venue = lt.clean(got["venue"], 200)
+    title_en = lt.clean(got["title_en"])
+    venue_en = lt.clean(got["venue_en"], 200)
     url = got["url"].strip()
 
     if category not in lt.CATEGORIES:
@@ -62,12 +65,13 @@ def main():
     if url and not re.match(r"^https://[^\s\"<>]+$", url):
         fail("URL must start with https:// and contain no spaces.", args.error)
 
-    entry = {"date": date, "title": title, "venue": venue, "category": category, "url": url}
+    entry = {"date": date, "title": title, "title_en": title_en, "venue": venue, "venue_en": venue_en,
+             "category": category, "url": url}
     header, blocks = lt.read_log(args.log)
     if lt.Known(blocks).contains(entry):
         fail("An entry with the same or a very similar title already exists.", args.error)
 
-    flagged = lt.has_money(title, venue)
+    flagged = lt.has_money(title, venue, title_en, venue_en)
     print("Adding: %s | %s | %s" % (date, category, title))
     if args.summary:
         text = "Adds one entry from the issue form:\n\n```yaml\n%s```\n" % lt.format_entry(entry)
