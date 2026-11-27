@@ -88,8 +88,8 @@
   url: "https://researchmap.jp/torutakenaga/published_papers/53577386"
 
 - date: "2026.04.24"
-  title: "WHO GISRS 外部精度評価(EQA)Panel 24 (2025) — 修了(所属機関として。インフルエンザ・SARS-CoV-2のRT-PCR検出、抗ウイルス薬感受性試験で満点)"
-  title_en: "WHO GISRS External Quality Assessment Programme, Panel 24 (2025) — Completed (on behalf of my institute; full score in influenza and SARS-CoV-2 RT-PCR detection and antiviral susceptibility testing)"
+  title: "WHO GISRS 外部精度評価(EQA)Panel 24 (2025) — 修了・満点(所属機関として)"
+  title_en: "WHO GISRS External Quality Assessment Programme, Panel 24 (2025) — Completed with full scores (on behalf of my institute)"
   venue: "香港衛生署 保健防護センター(WHO支援)"
   venue_en: "Centre for Health Protection, Hong Kong (supported by WHO)"
   category: other
@@ -290,8 +290,8 @@
   url: "https://journals.asm.org/doi/10.1128/mbio.03331-24"
 
 - date: "2024.12.19"
-  title: "WHO OpenWHO「Ready4Response」Tier 1(対応の文脈と原則)・Tier 2(システム・組織・スキル)— 修了"
-  title_en: "WHO OpenWHO Ready4Response, Tier 1 (Response context and principles) and Tier 2 (Systems, structures and skills) — Completed"
+  title: "WHO OpenWHO「Ready4Response」Tier 1・Tier 2 — 修了"
+  title_en: "WHO OpenWHO Ready4Response, Tier 1 and Tier 2 — Completed"
   venue: "WHO 健康危機プログラム(OpenWHO)"
   venue_en: "WHO Health Emergencies Programme (OpenWHO)"
   category: other
@@ -332,85 +332,85 @@
 - date: "2024.10.25"
   title: "世界史から学ぶ会計入門 — アメリカ編 — 修了"
   title_en: "Accounting through World History: America — Completed"
-  venue: "田中 靖浩(作家・公認会計士)JMOOC オンライン講座"
-  venue_en: "Yasuhiro Tanaka, JMOOC online course"
+  venue: "JMOOC オンライン講座(田中 靖浩)"
+  venue_en: "JMOOC online course (Yasuhiro Tanaka)"
   category: other
 
 - date: "2024.10.25"
   title: "お金に振り回されない生き方 — 人生100年時代 お金の教養入門 — 修了"
   title_en: "A Life Not Ruled by Money: Financial Literacy for the 100-Year Life — Completed"
-  venue: "田中 靖浩(作家・公認会計士)JMOOC オンライン講座"
-  venue_en: "Yasuhiro Tanaka, JMOOC online course"
+  venue: "JMOOC オンライン講座(田中 靖浩)"
+  venue_en: "JMOOC online course (Yasuhiro Tanaka)"
   category: other
 
 - date: "2024.10.18"
   title: "世界史から学ぶ会計入門 — イタリア・オランダ編 — 修了"
   title_en: "Accounting through World History: Italy and the Netherlands — Completed"
-  venue: "田中 靖浩(作家・公認会計士)JMOOC オンライン講座"
-  venue_en: "Yasuhiro Tanaka, JMOOC online course"
+  venue: "JMOOC オンライン講座(田中 靖浩)"
+  venue_en: "JMOOC online course (Yasuhiro Tanaka)"
   category: other
 
 - date: "2024.10.18"
   title: "世界史から学ぶ会計入門 — イギリス編 — 修了"
   title_en: "Accounting through World History: Britain — Completed"
-  venue: "田中 靖浩(作家・公認会計士)JMOOC オンライン講座"
-  venue_en: "Yasuhiro Tanaka, JMOOC online course"
+  venue: "JMOOC オンライン講座(田中 靖浩)"
+  venue_en: "JMOOC online course (Yasuhiro Tanaka)"
   category: other
 
 - date: "2024.10.18"
   title: "はじめてのサイバーセキュリティ — 修了"
   title_en: "Introduction to Cybersecurity — Completed"
-  venue: "Google 合同会社 JMOOC オンライン講座"
-  venue_en: "Google, JMOOC online course"
+  venue: "JMOOC オンライン講座(Google)"
+  venue_en: "JMOOC online course (Google)"
   category: other
 
 - date: "2024.10.18"
   title: "大学生のためのデータサイエンス(Ⅲ)問題解決編 — 修了"
   title_en: "Data Science for University Students III: Problem Solving — Completed"
-  venue: "滋賀大学 データサイエンス学部 JMOOC オンライン講座"
-  venue_en: "Shiga University, Faculty of Data Science, JMOOC online course"
+  venue: "JMOOC オンライン講座(滋賀大学)"
+  venue_en: "JMOOC online course (Shiga University)"
   category: other
 
 - date: "2024.10.18"
   title: "AI活用が注目される業界(介護・医療・金融・農業)— 修了"
   title_en: "Industries Where AI Is Gaining Attention: Nursing Care, Healthcare, Finance and Agriculture — Completed"
-  venue: "JMOOC(日本オープンオンライン教育推進協議会)オンライン講座"
-  venue_en: "JMOOC (Japan Massive Open Online Courses), online course"
+  venue: "JMOOC オンライン講座"
+  venue_en: "JMOOC online course"
   category: other
 
 - date: "2024.10.17"
   title: "AI・データサイエンス専門 II — 修了"
   title_en: "AI and Data Science, Specialized II — Completed"
-  venue: "JMOOC(日本オープンオンライン教育推進協議会)オンライン講座"
-  venue_en: "JMOOC (Japan Massive Open Online Courses), online course"
+  venue: "JMOOC オンライン講座"
+  venue_en: "JMOOC online course"
   category: other
 
 - date: "2024.10.16"
   title: "AI・データサイエンス基礎 — 修了"
   title_en: "AI and Data Science, Basics — Completed"
-  venue: "JMOOC(日本オープンオンライン教育推進協議会)オンライン講座"
-  venue_en: "JMOOC (Japan Massive Open Online Courses), online course"
+  venue: "JMOOC オンライン講座"
+  venue_en: "JMOOC online course"
   category: other
 
 - date: "2024.10.16"
   title: "AI・データサイエンス概論 — 修了"
   title_en: "AI and Data Science, Overview — Completed"
-  venue: "JMOOC(日本オープンオンライン教育推進協議会)オンライン講座"
-  venue_en: "JMOOC (Japan Massive Open Online Courses), online course"
+  venue: "JMOOC オンライン講座"
+  venue_en: "JMOOC online course"
   category: other
 
 - date: "2024.10.15"
   title: "AI・データサイエンス専門 I — 修了"
   title_en: "AI and Data Science, Specialized I — Completed"
-  venue: "JMOOC(日本オープンオンライン教育推進協議会)オンライン講座"
-  venue_en: "JMOOC (Japan Massive Open Online Courses), online course"
+  venue: "JMOOC オンライン講座"
+  venue_en: "JMOOC online course"
   category: other
 
 - date: "2024.10.15"
   title: "データサイエンティストの基礎知識 — 修了"
   title_en: "Fundamentals for Data Scientists — Completed"
-  venue: "JMOOC(日本オープンオンライン教育推進協議会)オンライン講座"
-  venue_en: "JMOOC (Japan Massive Open Online Courses), online course"
+  venue: "JMOOC オンライン講座"
+  venue_en: "JMOOC online course"
   category: other
 
 - date: "2024.10.12"
@@ -423,8 +423,8 @@
 - date: "2024.10.11"
   title: "企画・マーケティング、営業・販売・サービスで活用されるAI — 修了"
   title_en: "AI in Planning, Marketing, Sales and Service — Completed"
-  venue: "JMOOC(日本オープンオンライン教育推進協議会)オンライン講座"
-  venue_en: "JMOOC (Japan Massive Open Online Courses), online course"
+  venue: "JMOOC オンライン講座"
+  venue_en: "JMOOC online course"
   category: other
 
 - date: "2024.09.22"
@@ -713,7 +713,7 @@
 
 - date: "2022.10.07–20"
   title: "WHO GOARN Tier 1 オンラインコース(5科目)— 修了"
-  title_en: "GOARN Tier 1 online course, five modules: GOARN overview; Public Health Emergency and Humanitarian Landscape and Architecture; Working in an International Multidisciplinary Outbreak Response Team; Working with GOARN in the field; Personal Well-being for Deployment — Completed"
+  title_en: "GOARN Tier 1 online course, five modules — Completed"
   venue: "WHO GOARN"
   venue_en: "WHO GOARN"
   category: other
@@ -764,6 +764,20 @@
   venue_en: "Osaka, Grand Salon Juso"
   category: tango
 
+- date: "2022.07.06–08"
+  title: "AWS Developing on AWS — 修了(3日間)"
+  title_en: "AWS Developing on AWS — Completed (3 days)"
+  venue: "トレノケート・ジャパン(AWS特別開催コース)"
+  venue_en: "Trainocate Japan (AWS special course)"
+  category: other
+
+- date: "2022.06.15–17"
+  title: "AWS Systems Operations on AWS — 修了(3日間)"
+  title_en: "AWS Systems Operations on AWS — Completed (3 days)"
+  venue: "トレノケート・ジャパン(AWS特別開催コース)"
+  venue_en: "Trainocate Japan (AWS special course)"
+  category: other
+
 - date: "2022.06.05"
   title: "KANSAI Tango Orquesta Spring Live"
   venue: "大阪 SPinniNG MiLL"
@@ -775,6 +789,20 @@
   venue: "大阪 西天満 カフェティン・デ・ブエノスアイレス"
   venue_en: "Osaka, Nishitenma, Cafetin de Buenos Aires"
   category: tango
+
+- date: "2022.05.10"
+  title: "AWS Security Essentials — 修了"
+  title_en: "AWS Security Essentials — Completed"
+  venue: "トレノケート・ジャパン(AWS特別開催コース)"
+  venue_en: "Trainocate Japan (AWS special course)"
+  category: other
+
+- date: "2022.04.14"
+  title: "AWS Cloud Practitioner Essentials — 修了"
+  title_en: "AWS Cloud Practitioner Essentials — Completed"
+  venue: "トレノケート・ジャパン(AWS特別開催コース)"
+  venue_en: "Trainocate Japan (AWS special course)"
+  category: other
 
 - date: "2022.04.10"
   title: "サクラタンゴフェスティバル 2022 After Milonga"
@@ -791,8 +819,8 @@
   category: tango
 
 - date: "2022.01.27"
-  title: "京都大学 学びコーディネーター事業(2017〜2021年度)— 高校生向けの出前授業・オンデマンド授業(「ウイルスは生物か」「ウイルスに効く薬の作り方」ほか)"
-  title_en: "Kyoto University Manabi Coordinator Program (FY2017–2021) — Classes for high school students, on-site and on-demand (including \"Are viruses alive?\" and how antiviral drugs are made)"
+  title: "京都大学 学びコーディネーター事業(2017〜2021年度)— 高校生向けの出前授業・オンデマンド授業"
+  title_en: "Kyoto University Manabi Coordinator Program (FY2017–2021) — Classes for high school students, on-site and on-demand"
   venue: "京都大学 高大接続・入試センター"
   venue_en: "Kyoto University, High School–University Articulation and Admissions Center"
   category: other
