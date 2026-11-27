@@ -32,12 +32,26 @@
   venue_en: "Yamanashi, Lake Yamanaka, Furin Sanso"
   category: kendo
 
+- date: "2026.09.13"
+  title: "KANSAI Tango Orquesta Autumn Concert"
+  title_en: "KANSAI Tango Orquesta Autumn Concert"
+  venue: "大阪 堺 プリメールアートホール(3F)"
+  venue_en: "Osaka, Sakai, Primer ArtHall (3F)"
+  category: tango
+
 - date: "2026.08.23"
   title: "WHO GOARN アウトブレイク対応オリエンテーション研修 — 参加"
   title_en: "WHO GOARN Orientation to Outbreak Response Training — Participated"
   venue: "長崎"
   venue_en: "Nagasaki, Japan"
   category: other
+
+- date: "2026.08.16"
+  title: "音楽の仲間「花」第44回コンサート〜ひとひら、ひとひらの花びらでひとつの「花」を〜"
+  title_en: "Music Friends \"Hana\" 44th Concert — Petal by petal, together one flower"
+  venue: "京都 堀川音楽高等学校 音楽ホール"
+  venue_en: "Kyoto, Horikawa High School of Music, Music Hall"
+  category: tango
 
 - date: "2026.08.03"
   title: "令和8年度 国際感染症インテリジェンス研修 — 修了"
