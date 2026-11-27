@@ -248,6 +248,13 @@
   venue_en: "Osaka, Sakai, Fenice Sakai Small Hall"
   category: tango
 
+- date: "2025.01.24"
+  title: "WHO GOARN Tier 1.5 研修「国際アウトブレイク対応オリエンテーション」— 参加"
+  title_en: "GOARN Tier 1.5 Training: Orientation to International Outbreak Response with GOARN — Participated"
+  venue: "東京"
+  venue_en: "Tokyo, Japan"
+  category: other
+
 - date: "2025.01.08"
   title: "Coatomer complex I is required for transport of SARS-CoV-2 progeny virions from the ERGIC"
   venue: "mBio"
@@ -556,6 +563,13 @@
   venue: "大阪 SPinniNG MiLL"
   venue_en: "Osaka, SPinniNG MiLL"
   category: tango
+
+- date: "2022.10.07"
+  title: "WHO GOARN Tier 1 コース「Working with GOARN in the field」— 修了"
+  title_en: "GOARN Tier 1 course: Working with GOARN in the field — Completed"
+  venue: "WHO GOARN"
+  venue_en: "WHO GOARN"
+  category: other
 
 - date: "2022.09.03"
   title: "Millonga Berretin"
