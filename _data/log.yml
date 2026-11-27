@@ -255,11 +255,32 @@
   venue_en: "Tokyo, Japan"
   category: other
 
+- date: "2025.01.10"
+  title: "国連安全保安局(UNDSS)「銃撃事件への備えと対応」— 修了"
+  title_en: "UNDSS: Preparing and Responding to Active Shooter Incidents — Completed"
+  venue: "国連安全保安局(UNDSS)"
+  venue_en: "United Nations Department of Safety and Security (UNDSS)"
+  category: other
+
 - date: "2025.01.08"
   title: "Coatomer complex I is required for transport of SARS-CoV-2 progeny virions from the ERGIC"
   venue: "mBio"
   category: research
   url: "https://journals.asm.org/doi/10.1128/mbio.03331-24"
+
+- date: "2024.12.19"
+  title: "WHO OpenWHO「Ready4Response」Tier 1(対応の文脈と原則)・Tier 2(システム・組織・スキル)— 修了"
+  title_en: "WHO OpenWHO Ready4Response, Tier 1 (Response context and principles) and Tier 2 (Systems, structures and skills) — Completed"
+  venue: "WHO 健康危機プログラム(OpenWHO)"
+  venue_en: "WHO Health Emergencies Programme (OpenWHO)"
+  category: other
+
+- date: "2024.12.16"
+  title: "WHO iLearn「UN BSAFE」「性的搾取・虐待の防止(PSEA)」— 修了"
+  title_en: "WHO iLearn: UN BSAFE and Prevention of Sexual Exploitation and Abuse (PSEA) — Completed"
+  venue: "世界保健機関(WHO)"
+  venue_en: "World Health Organization (WHO)"
+  category: other
 
 - date: "2024.11.30"
   title: "ICA plus milonga Yapa"
@@ -564,9 +585,9 @@
   venue_en: "Osaka, SPinniNG MiLL"
   category: tango
 
-- date: "2022.10.07"
-  title: "WHO GOARN Tier 1 コース「Working with GOARN in the field」— 修了"
-  title_en: "GOARN Tier 1 course: Working with GOARN in the field — Completed"
+- date: "2022.10.07–20"
+  title: "WHO GOARN Tier 1 オンラインコース(5科目)— 修了"
+  title_en: "GOARN Tier 1 online course, five modules: GOARN overview; Public Health Emergency and Humanitarian Landscape and Architecture; Working in an International Multidisciplinary Outbreak Response Team; Working with GOARN in the field; Personal Well-being for Deployment — Completed"
   venue: "WHO GOARN"
   venue_en: "WHO GOARN"
   category: other
