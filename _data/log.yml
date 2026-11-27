@@ -32,6 +32,13 @@
   venue_en: "Yamanashi, Lake Yamanaka, Furin Sanso"
   category: kendo
 
+- date: "2026.09.11"
+  title: "Physical AI 基礎編 2026 — 修了"
+  title_en: "Physical AI, Fundamentals 2026 — Completed"
+  venue: "東京大学 松尾・岩澤研究室"
+  venue_en: "The University of Tokyo, Matsuo-Iwasawa Lab"
+  category: other
+
 - date: "2026.08.23"
   title: "WHO GOARN アウトブレイク対応オリエンテーション研修 — 参加"
   title_en: "WHO GOARN Orientation to Outbreak Response Training — Participated"
@@ -622,6 +629,13 @@
   venue_en: "Kyoto, Bunka Parc Joyo Planetarium"
   category: tango
 
+- date: "2022.01.27"
+  title: "京都大学 学びコーディネーター事業(令和3年度)— 高校生向けオンデマンド授業「ウイルスに効く薬の作り方」ほかに協力"
+  title_en: "Kyoto University Manabi Coordinator Program (FY2021) — Contributed on-demand classes for high school students, including how antiviral drugs are made"
+  venue: "京都大学 高大接続・入試センター"
+  venue_en: "Kyoto University, High School–University Articulation and Admissions Center"
+  category: other
+
 - date: "2021.12.30"
   title: "Tango Fantasia 2021 〜タンゴ・ファンタシア2021〜"
   title_en: "Tango Fantasia 2021"
@@ -928,6 +942,13 @@
   venue_en: "Kyoto University High School–University Collaboration Program, Hyogo Prefectural Himeji Higashi High School"
   category: research
   url: "https://researchmap.jp/torutakenaga/presentations/36382106"
+
+- date: "2016.07.24"
+  title: "Novartis BioCamp 2016(バイオテクノロジー・リーダーシップ・キャンプ)— 修了"
+  title_en: "Novartis Biotechnology Leadership Camp Japan (BioCamp 2016) — Completed"
+  venue: "東京"
+  venue_en: "Tokyo, Japan"
+  category: other
 
 - date: "2016"
   title: "インフルエンザA(H1N1)pdm09ウイルスの抗原性の特徴（共同発表）"
