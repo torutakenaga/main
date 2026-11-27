@@ -32,12 +32,26 @@
   venue_en: "Yamanashi, Lake Yamanaka, Furin Sanso"
   category: kendo
 
+- date: "2026.09.28"
+  title: "2026年度 JIHS グローバルヘルス・フィールドトレーニング(ベトナム)— 修了"
+  title_en: "JIHS Global Health Field Training 2026 (Vietnam) — Completed"
+  venue: "ベトナム ホアビン総合病院、フート省保健局"
+  venue_en: "Hoa Binh General Hospital and Phu Tho Provincial Department of Health, Vietnam"
+  category: other
+
 - date: "2026.09.13"
   title: "KANSAI Tango Orquesta Autumn Concert"
   title_en: "KANSAI Tango Orquesta Autumn Concert"
   venue: "大阪 堺 プリメールアートホール(3F)"
   venue_en: "Osaka, Sakai, Primer ArtHall (3F)"
   category: tango
+
+- date: "2026.09.11"
+  title: "Physical AI 基礎編 2026 — 修了"
+  title_en: "Physical AI, Fundamentals 2026 — Completed"
+  venue: "東京大学 松尾・岩澤研究室"
+  venue_en: "The University of Tokyo, Matsuo-Iwasawa Lab"
+  category: other
 
 - date: "2026.08.23"
   title: "WHO GOARN アウトブレイク対応オリエンテーション研修 — 参加"
@@ -60,6 +74,13 @@
   venue_en: "Global Outbreak Intelligence, Capacity Building and Deployment Coordination Center (GIC)"
   category: other
 
+- date: "2026.07.17–20"
+  title: "ECDC GenEpi-BioTrain 28「ポリオウイルスのゲノムと疫学 — ウイルスはどう根絶に抗うか」— 参加"
+  title_en: "ECDC GenEpi-BioTrain 28: Genomics and epidemiology of polioviruses, How a virus resists eradication? — Participated"
+  venue: "オンライン"
+  venue_en: "Online"
+  category: other
+
 - date: "2026.07.12"
   title: "第30回 西東京剣道選手権大会(東京都剣道選手権大会予選会) — 出場"
   title_en: "The 30th West Tokyo Kendo Championship (qualifier for the Tokyo Kendo Championship) — Competed"
@@ -79,6 +100,13 @@
   venue: "Japanese Journal of Infectious Diseases"
   category: research
   url: "https://researchmap.jp/torutakenaga/published_papers/53577386"
+
+- date: "2026.04.24"
+  title: "WHO GISRS 外部精度評価(EQA)Panel 24 (2025) — 修了・満点(所属機関として)"
+  title_en: "WHO GISRS External Quality Assessment Programme, Panel 24 (2025) — Completed with full scores (on behalf of my institute)"
+  venue: "香港衛生署 保健防護センター(WHO支援)"
+  venue_en: "Centre for Health Protection, Hong Kong (supported by WHO)"
+  category: other
 
 - date: "2026.04.13–15"
   title: "ECDC GenEpi-BioTrain 25「アウトブレイク時のモバイルラボとフィールドシーケンス」— 参加"
@@ -143,6 +171,13 @@
   venue_en: "Kyoto, Horikawa High School of Music, Music Hall"
   category: tango
 
+- date: "2026.01.19"
+  title: "令和7年度 国際感染症対応人材のための健康管理研修 — 修了"
+  title_en: "FY2025 Health Management Training for Personnel Responding to Global Infectious Diseases — Completed"
+  venue: "国際感染症危機管理対応推進センター(GIC)"
+  venue_en: "Global Outbreak Intelligence, Capacity Building and Deployment Coordination Center (GIC)"
+  category: other
+
 - date: "2026.01.12"
   title: "KANSAI Tango Orquesta 第10回定期コンサート \"La fiesta de Tango\""
   title_en: "KANSAI Tango Orquesta 10th Regular Concert \"La fiesta de Tango\""
@@ -197,6 +232,13 @@
   venue_en: "Osaka, Asahi Ward"
   category: tango
 
+- date: "2025.09.30"
+  title: "グローバル消費インテリジェンス寄附講座 2025 Summer — 修了・最終審査合格"
+  title_en: "Global Consumer Intelligence Course 2025 Summer — Completed and passed the final assessment"
+  venue: "東京大学 松尾・岩澤研究室"
+  venue_en: "The University of Tokyo, Matsuo-Iwasawa Lab"
+  category: other
+
 - date: "2025.08.16"
   title: "音楽の仲間「花」第42回コンサート〜ひとひら、ひとひらの花びらでひとつの「花」を〜"
   title_en: "Music Friends \"Hana\" 42nd Concert — Petal by petal, together one flower"
@@ -248,17 +290,80 @@
   venue_en: "Osaka, Sakai, Fenice Sakai Small Hall"
   category: tango
 
+- date: "2025.01.24"
+  title: "WHO GOARN Tier 1.5 研修「国際アウトブレイク対応オリエンテーション」— 参加"
+  title_en: "GOARN Tier 1.5 Training: Orientation to International Outbreak Response with GOARN — Participated"
+  venue: "東京"
+  venue_en: "Tokyo, Japan"
+  category: other
+
+- date: "2025.01.21"
+  title: "Kaggle Learn「Intro to Deep Learning」— 修了"
+  title_en: "Kaggle Learn: Intro to Deep Learning — Completed"
+  venue: "Kaggle Learn"
+  venue_en: "Kaggle Learn"
+  category: other
+
+- date: "2025.01.15"
+  title: "Kaggle Learn「Intro to SQL」— 修了"
+  title_en: "Kaggle Learn: Intro to SQL — Completed"
+  venue: "Kaggle Learn"
+  venue_en: "Kaggle Learn"
+  category: other
+
+- date: "2025.01.14"
+  title: "Kaggle Learn「Data Cleaning」— 修了"
+  title_en: "Kaggle Learn: Data Cleaning — Completed"
+  venue: "Kaggle Learn"
+  venue_en: "Kaggle Learn"
+  category: other
+
+- date: "2025.01.10"
+  title: "国連安全保安局(UNDSS)「銃撃事件への備えと対応」— 修了"
+  title_en: "UNDSS: Preparing and Responding to Active Shooter Incidents — Completed"
+  venue: "国連安全保安局(UNDSS)"
+  venue_en: "United Nations Department of Safety and Security (UNDSS)"
+  category: other
+
 - date: "2025.01.08"
   title: "Coatomer complex I is required for transport of SARS-CoV-2 progeny virions from the ERGIC"
   venue: "mBio"
   category: research
   url: "https://journals.asm.org/doi/10.1128/mbio.03331-24"
 
+- date: "2024.12.19"
+  title: "WHO OpenWHO「Ready4Response」Tier 1・Tier 2 — 修了"
+  title_en: "WHO OpenWHO Ready4Response, Tier 1 and Tier 2 — Completed"
+  venue: "WHO 健康危機プログラム(OpenWHO)"
+  venue_en: "WHO Health Emergencies Programme (OpenWHO)"
+  category: other
+
+- date: "2024.12.16"
+  title: "WHO iLearn「UN BSAFE」「性的搾取・虐待の防止(PSEA)」— 修了"
+  title_en: "WHO iLearn: UN BSAFE and Prevention of Sexual Exploitation and Abuse (PSEA) — Completed"
+  venue: "世界保健機関(WHO)"
+  venue_en: "World Health Organization (WHO)"
+  category: other
+
 - date: "2024.11.30"
   title: "ICA plus milonga Yapa"
   venue: "東京"
   venue_en: "Tokyo"
   category: tango
+
+- date: "2024.11.27"
+  title: "Kaggle Learn「Feature Engineering」— 修了"
+  title_en: "Kaggle Learn: Feature Engineering — Completed"
+  venue: "Kaggle Learn"
+  venue_en: "Kaggle Learn"
+  category: other
+
+- date: "2024.11.18"
+  title: "Kaggle Learn「Intermediate Machine Learning」— 修了"
+  title_en: "Kaggle Learn: Intermediate Machine Learning — Completed"
+  venue: "Kaggle Learn"
+  venue_en: "Kaggle Learn"
+  category: other
 
 - date: "2024.11.16"
   title: "El Puente 4th Anniversary"
@@ -280,12 +385,124 @@
   venue_en: "Tokyo, Tokyo Budokan"
   category: kendo
 
+- date: "2024.10.30"
+  title: "Kaggle Learn「Pandas」— 修了"
+  title_en: "Kaggle Learn: Pandas — Completed"
+  venue: "Kaggle Learn"
+  venue_en: "Kaggle Learn"
+  category: other
+
+- date: "2024.10.25"
+  title: "世界史から学ぶ会計入門 — アメリカ編 — 修了"
+  title_en: "Accounting through World History: America — Completed"
+  venue: "JMOOC オンライン講座(田中 靖浩)"
+  venue_en: "JMOOC online course (Yasuhiro Tanaka)"
+  category: other
+
+- date: "2024.10.25"
+  title: "お金に振り回されない生き方 — 人生100年時代 お金の教養入門 — 修了"
+  title_en: "A Life Not Ruled by Money: Financial Literacy for the 100-Year Life — Completed"
+  venue: "JMOOC オンライン講座(田中 靖浩)"
+  venue_en: "JMOOC online course (Yasuhiro Tanaka)"
+  category: other
+
+- date: "2024.10.18"
+  title: "世界史から学ぶ会計入門 — イタリア・オランダ編 — 修了"
+  title_en: "Accounting through World History: Italy and the Netherlands — Completed"
+  venue: "JMOOC オンライン講座(田中 靖浩)"
+  venue_en: "JMOOC online course (Yasuhiro Tanaka)"
+  category: other
+
+- date: "2024.10.18"
+  title: "世界史から学ぶ会計入門 — イギリス編 — 修了"
+  title_en: "Accounting through World History: Britain — Completed"
+  venue: "JMOOC オンライン講座(田中 靖浩)"
+  venue_en: "JMOOC online course (Yasuhiro Tanaka)"
+  category: other
+
+- date: "2024.10.18"
+  title: "はじめてのサイバーセキュリティ — 修了"
+  title_en: "Introduction to Cybersecurity — Completed"
+  venue: "JMOOC オンライン講座(Google)"
+  venue_en: "JMOOC online course (Google)"
+  category: other
+
+- date: "2024.10.18"
+  title: "大学生のためのデータサイエンス(Ⅲ)問題解決編 — 修了"
+  title_en: "Data Science for University Students III: Problem Solving — Completed"
+  venue: "JMOOC オンライン講座(滋賀大学)"
+  venue_en: "JMOOC online course (Shiga University)"
+  category: other
+
+- date: "2024.10.18"
+  title: "AI活用が注目される業界(介護・医療・金融・農業)— 修了"
+  title_en: "Industries Where AI Is Gaining Attention: Nursing Care, Healthcare, Finance and Agriculture — Completed"
+  venue: "JMOOC オンライン講座"
+  venue_en: "JMOOC online course"
+  category: other
+
+- date: "2024.10.17"
+  title: "AI・データサイエンス専門 II — 修了"
+  title_en: "AI and Data Science, Specialized II — Completed"
+  venue: "JMOOC オンライン講座"
+  venue_en: "JMOOC online course"
+  category: other
+
+- date: "2024.10.16"
+  title: "AI・データサイエンス基礎 — 修了"
+  title_en: "AI and Data Science, Basics — Completed"
+  venue: "JMOOC オンライン講座"
+  venue_en: "JMOOC online course"
+  category: other
+
+- date: "2024.10.16"
+  title: "AI・データサイエンス概論 — 修了"
+  title_en: "AI and Data Science, Overview — Completed"
+  venue: "JMOOC オンライン講座"
+  venue_en: "JMOOC online course"
+  category: other
+
+- date: "2024.10.15"
+  title: "AI・データサイエンス専門 I — 修了"
+  title_en: "AI and Data Science, Specialized I — Completed"
+  venue: "JMOOC オンライン講座"
+  venue_en: "JMOOC online course"
+  category: other
+
+- date: "2024.10.15"
+  title: "データサイエンティストの基礎知識 — 修了"
+  title_en: "Fundamentals for Data Scientists — Completed"
+  venue: "JMOOC オンライン講座"
+  venue_en: "JMOOC online course"
+  category: other
+
 - date: "2024.10.12"
   title: "第56回 全日本官公庁剣道大会 — 個人戦・団体戦に出場"
   title_en: "The 56th All-Japan Government Offices Kendo Tournament — Competed in the individual and team events"
   venue: "東京 東京武道館"
   venue_en: "Tokyo, Tokyo Budokan"
   category: kendo
+
+- date: "2024.10.11"
+  title: "企画・マーケティング、営業・販売・サービスで活用されるAI — 修了"
+  title_en: "AI in Planning, Marketing, Sales and Service — Completed"
+  venue: "JMOOC オンライン講座"
+  venue_en: "JMOOC online course"
+  category: other
+
+- date: "2024.10.07"
+  title: "Kaggle Learn「Intro to Machine Learning」— 修了"
+  title_en: "Kaggle Learn: Intro to Machine Learning — Completed"
+  venue: "Kaggle Learn"
+  venue_en: "Kaggle Learn"
+  category: other
+
+- date: "2024.09.27"
+  title: "Kaggle Learn「Python」— 修了"
+  title_en: "Kaggle Learn: Python — Completed"
+  venue: "Kaggle Learn"
+  venue_en: "Kaggle Learn"
+  category: other
 
 - date: "2024.09.22"
   title: "第33回 厚生労働省剣友会全国大会 — 個人戦 優勝"
@@ -300,6 +517,13 @@
   venue: "大阪 アートエリアB1（京阪電車なにわ橋駅）"
   venue_en: "Osaka, Art Area B1"
   category: tango
+
+- date: "2024.09.06"
+  title: "Kaggle Learn「Intro to Programming」— 修了"
+  title_en: "Kaggle Learn: Intro to Programming — Completed"
+  venue: "Kaggle Learn"
+  venue_en: "Kaggle Learn"
+  category: other
 
 - date: "2024.08.25"
   title: "KANSAI Tango Orquesta Summer Concert"
@@ -334,6 +558,13 @@
   venue: "東京 東京武道館"
   venue_en: "Tokyo, Tokyo Budokan"
   category: kendo
+
+- date: "2024.06.04"
+  title: "令和6年度 国際感染症インテリジェンス研修 — 修了"
+  title_en: "FY2024 Global Infectious Disease Intelligence Training — Completed"
+  venue: "国立国際医療研究センター 国際感染症センター"
+  venue_en: "NCGM Disease Control and Prevention Center"
+  category: other
 
 - date: "2024.05.29"
   title: "Hexestrol, an estrogen receptor agonist, inhibits Lassa virus entry"
@@ -557,6 +788,13 @@
   venue_en: "Osaka, SPinniNG MiLL"
   category: tango
 
+- date: "2022.10.07–20"
+  title: "WHO GOARN Tier 1 オンラインコース(5科目)— 修了"
+  title_en: "GOARN Tier 1 online course, five modules — Completed"
+  venue: "WHO GOARN"
+  venue_en: "WHO GOARN"
+  category: other
+
 - date: "2022.09.03"
   title: "Millonga Berretin"
   venue: "大阪 西天満 カフェティン・デ・ブエノスアイレス"
@@ -603,6 +841,20 @@
   venue_en: "Osaka, Grand Salon Juso"
   category: tango
 
+- date: "2022.07.06–08"
+  title: "AWS Developing on AWS — 修了(3日間)"
+  title_en: "AWS Developing on AWS — Completed (3 days)"
+  venue: "トレノケート・ジャパン(AWS特別開催コース)"
+  venue_en: "Trainocate Japan (AWS special course)"
+  category: other
+
+- date: "2022.06.15–17"
+  title: "AWS Systems Operations on AWS — 修了(3日間)"
+  title_en: "AWS Systems Operations on AWS — Completed (3 days)"
+  venue: "トレノケート・ジャパン(AWS特別開催コース)"
+  venue_en: "Trainocate Japan (AWS special course)"
+  category: other
+
 - date: "2022.06.05"
   title: "KANSAI Tango Orquesta Spring Live"
   venue: "大阪 SPinniNG MiLL"
@@ -614,6 +866,20 @@
   venue: "大阪 西天満 カフェティン・デ・ブエノスアイレス"
   venue_en: "Osaka, Nishitenma, Cafetin de Buenos Aires"
   category: tango
+
+- date: "2022.05.10"
+  title: "AWS Security Essentials — 修了"
+  title_en: "AWS Security Essentials — Completed"
+  venue: "トレノケート・ジャパン(AWS特別開催コース)"
+  venue_en: "Trainocate Japan (AWS special course)"
+  category: other
+
+- date: "2022.04.14"
+  title: "AWS Cloud Practitioner Essentials — 修了"
+  title_en: "AWS Cloud Practitioner Essentials — Completed"
+  venue: "トレノケート・ジャパン(AWS特別開催コース)"
+  venue_en: "Trainocate Japan (AWS special course)"
+  category: other
 
 - date: "2022.04.10"
   title: "サクラタンゴフェスティバル 2022 After Milonga"
@@ -628,6 +894,13 @@
   venue: "京都 文化パルク城陽プラネタリウム"
   venue_en: "Kyoto, Bunka Parc Joyo Planetarium"
   category: tango
+
+- date: "2022.01.27"
+  title: "京都大学 学びコーディネーター事業(2017〜2021年度)— 高校生向けの出前授業・オンデマンド授業"
+  title_en: "Kyoto University Manabi Coordinator Program (FY2017–2021) — Classes for high school students, on-site and on-demand"
+  venue: "京都大学 高大接続・入試センター"
+  venue_en: "Kyoto University, High School–University Articulation and Admissions Center"
+  category: other
 
 - date: "2021.12.30"
   title: "Tango Fantasia 2021 〜タンゴ・ファンタシア2021〜"
@@ -935,6 +1208,13 @@
   venue_en: "Kyoto University High School–University Collaboration Program, Hyogo Prefectural Himeji Higashi High School"
   category: research
   url: "https://researchmap.jp/torutakenaga/presentations/36382106"
+
+- date: "2016.07.24"
+  title: "Novartis BioCamp 2016(バイオテクノロジー・リーダーシップ・キャンプ)— 修了"
+  title_en: "Novartis Biotechnology Leadership Camp Japan (BioCamp 2016) — Completed"
+  venue: "東京"
+  venue_en: "Tokyo, Japan"
+  category: other
 
 - date: "2016"
   title: "インフルエンザA(H1N1)pdm09ウイルスの抗原性の特徴（共同発表）"
