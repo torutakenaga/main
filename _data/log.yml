@@ -315,12 +315,103 @@
   venue_en: "Tokyo, Tokyo Budokan"
   category: kendo
 
+- date: "2024.10.25"
+  title: "世界史から学ぶ会計入門 — アメリカ編 — 修了"
+  title_en: "Accounting through World History: America — Completed"
+  venue: "田中 靖浩(作家・公認会計士)JMOOC オンライン講座"
+  venue_en: "Yasuhiro Tanaka, JMOOC online course"
+  category: other
+
+- date: "2024.10.25"
+  title: "お金に振り回されない生き方 — 人生100年時代 お金の教養入門 — 修了"
+  title_en: "A Life Not Ruled by Money: Financial Literacy for the 100-Year Life — Completed"
+  venue: "田中 靖浩(作家・公認会計士)JMOOC オンライン講座"
+  venue_en: "Yasuhiro Tanaka, JMOOC online course"
+  category: other
+
+- date: "2024.10.18"
+  title: "世界史から学ぶ会計入門 — イタリア・オランダ編 — 修了"
+  title_en: "Accounting through World History: Italy and the Netherlands — Completed"
+  venue: "田中 靖浩(作家・公認会計士)JMOOC オンライン講座"
+  venue_en: "Yasuhiro Tanaka, JMOOC online course"
+  category: other
+
+- date: "2024.10.18"
+  title: "世界史から学ぶ会計入門 — イギリス編 — 修了"
+  title_en: "Accounting through World History: Britain — Completed"
+  venue: "田中 靖浩(作家・公認会計士)JMOOC オンライン講座"
+  venue_en: "Yasuhiro Tanaka, JMOOC online course"
+  category: other
+
+- date: "2024.10.18"
+  title: "はじめてのサイバーセキュリティ — 修了"
+  title_en: "Introduction to Cybersecurity — Completed"
+  venue: "Google 合同会社 JMOOC オンライン講座"
+  venue_en: "Google, JMOOC online course"
+  category: other
+
+- date: "2024.10.18"
+  title: "大学生のためのデータサイエンス(Ⅲ)問題解決編 — 修了"
+  title_en: "Data Science for University Students III: Problem Solving — Completed"
+  venue: "滋賀大学 データサイエンス学部 JMOOC オンライン講座"
+  venue_en: "Shiga University, Faculty of Data Science, JMOOC online course"
+  category: other
+
+- date: "2024.10.18"
+  title: "AI活用が注目される業界(介護・医療・金融・農業)— 修了"
+  title_en: "Industries Where AI Is Gaining Attention: Nursing Care, Healthcare, Finance and Agriculture — Completed"
+  venue: "JMOOC(日本オープンオンライン教育推進協議会)オンライン講座"
+  venue_en: "JMOOC (Japan Massive Open Online Courses), online course"
+  category: other
+
+- date: "2024.10.17"
+  title: "AI・データサイエンス専門 II — 修了"
+  title_en: "AI and Data Science, Specialized II — Completed"
+  venue: "JMOOC(日本オープンオンライン教育推進協議会)オンライン講座"
+  venue_en: "JMOOC (Japan Massive Open Online Courses), online course"
+  category: other
+
+- date: "2024.10.16"
+  title: "AI・データサイエンス基礎 — 修了"
+  title_en: "AI and Data Science, Basics — Completed"
+  venue: "JMOOC(日本オープンオンライン教育推進協議会)オンライン講座"
+  venue_en: "JMOOC (Japan Massive Open Online Courses), online course"
+  category: other
+
+- date: "2024.10.16"
+  title: "AI・データサイエンス概論 — 修了"
+  title_en: "AI and Data Science, Overview — Completed"
+  venue: "JMOOC(日本オープンオンライン教育推進協議会)オンライン講座"
+  venue_en: "JMOOC (Japan Massive Open Online Courses), online course"
+  category: other
+
+- date: "2024.10.15"
+  title: "AI・データサイエンス専門 I — 修了"
+  title_en: "AI and Data Science, Specialized I — Completed"
+  venue: "JMOOC(日本オープンオンライン教育推進協議会)オンライン講座"
+  venue_en: "JMOOC (Japan Massive Open Online Courses), online course"
+  category: other
+
+- date: "2024.10.15"
+  title: "データサイエンティストの基礎知識 — 修了"
+  title_en: "Fundamentals for Data Scientists — Completed"
+  venue: "JMOOC(日本オープンオンライン教育推進協議会)オンライン講座"
+  venue_en: "JMOOC (Japan Massive Open Online Courses), online course"
+  category: other
+
 - date: "2024.10.12"
   title: "第56回 全日本官公庁剣道大会 — 個人戦・団体戦に出場"
   title_en: "The 56th All-Japan Government Offices Kendo Tournament — Competed in the individual and team events"
   venue: "東京 東京武道館"
   venue_en: "Tokyo, Tokyo Budokan"
   category: kendo
+
+- date: "2024.10.11"
+  title: "企画・マーケティング、営業・販売・サービスで活用されるAI — 修了"
+  title_en: "AI in Planning, Marketing, Sales and Service — Completed"
+  venue: "JMOOC(日本オープンオンライン教育推進協議会)オンライン講座"
+  venue_en: "JMOOC (Japan Massive Open Online Courses), online course"
+  category: other
 
 - date: "2024.09.22"
   title: "第33回 厚生労働省剣友会全国大会 — 個人戦 優勝"
