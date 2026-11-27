@@ -283,6 +283,27 @@
   venue_en: "Tokyo, Japan"
   category: other
 
+- date: "2025.01.21"
+  title: "Kaggle Learn「Intro to Deep Learning」— 修了"
+  title_en: "Kaggle Learn: Intro to Deep Learning — Completed"
+  venue: "Kaggle Learn"
+  venue_en: "Kaggle Learn"
+  category: other
+
+- date: "2025.01.15"
+  title: "Kaggle Learn「Intro to SQL」— 修了"
+  title_en: "Kaggle Learn: Intro to SQL — Completed"
+  venue: "Kaggle Learn"
+  venue_en: "Kaggle Learn"
+  category: other
+
+- date: "2025.01.14"
+  title: "Kaggle Learn「Data Cleaning」— 修了"
+  title_en: "Kaggle Learn: Data Cleaning — Completed"
+  venue: "Kaggle Learn"
+  venue_en: "Kaggle Learn"
+  category: other
+
 - date: "2025.01.08"
   title: "Coatomer complex I is required for transport of SARS-CoV-2 progeny virions from the ERGIC"
   venue: "mBio"
@@ -309,6 +330,20 @@
   venue_en: "Tokyo"
   category: tango
 
+- date: "2024.11.27"
+  title: "Kaggle Learn「Feature Engineering」— 修了"
+  title_en: "Kaggle Learn: Feature Engineering — Completed"
+  venue: "Kaggle Learn"
+  venue_en: "Kaggle Learn"
+  category: other
+
+- date: "2024.11.18"
+  title: "Kaggle Learn「Intermediate Machine Learning」— 修了"
+  title_en: "Kaggle Learn: Intermediate Machine Learning — Completed"
+  venue: "Kaggle Learn"
+  venue_en: "Kaggle Learn"
+  category: other
+
 - date: "2024.11.16"
   title: "El Puente 4th Anniversary"
   venue: "兵庫 宝塚 El Puente"
@@ -328,6 +363,13 @@
   venue: "東京 東京武道館"
   venue_en: "Tokyo, Tokyo Budokan"
   category: kendo
+
+- date: "2024.10.30"
+  title: "Kaggle Learn「Pandas」— 修了"
+  title_en: "Kaggle Learn: Pandas — Completed"
+  venue: "Kaggle Learn"
+  venue_en: "Kaggle Learn"
+  category: other
 
 - date: "2024.10.25"
   title: "世界史から学ぶ会計入門 — アメリカ編 — 修了"
@@ -427,6 +469,20 @@
   venue_en: "JMOOC online course"
   category: other
 
+- date: "2024.10.07"
+  title: "Kaggle Learn「Intro to Machine Learning」— 修了"
+  title_en: "Kaggle Learn: Intro to Machine Learning — Completed"
+  venue: "Kaggle Learn"
+  venue_en: "Kaggle Learn"
+  category: other
+
+- date: "2024.09.27"
+  title: "Kaggle Learn「Python」— 修了"
+  title_en: "Kaggle Learn: Python — Completed"
+  venue: "Kaggle Learn"
+  venue_en: "Kaggle Learn"
+  category: other
+
 - date: "2024.09.22"
   title: "第33回 厚生労働省剣友会全国大会 — 個人戦 優勝"
   title_en: "The 33rd National Tournament of the Ministry of Health, Labour and Welfare Kendo Club (Kenyu-kai) — Individual champion"
@@ -441,11 +497,11 @@
   venue_en: "Osaka, Art Area B1"
   category: tango
 
-- date: "2024.09.06–2025.01.21"
-  title: "Kaggle Learn 9コース(Python、Pandas、機械学習、ディープラーニング、SQL、データクリーニングなど)— 修了"
-  title_en: "Kaggle Learn, nine courses (Python, Pandas, machine learning, deep learning, SQL, data cleaning and more) — Completed"
-  venue: "Kaggle"
-  venue_en: "Kaggle"
+- date: "2024.09.06"
+  title: "Kaggle Learn「Intro to Programming」— 修了"
+  title_en: "Kaggle Learn: Intro to Programming — Completed"
+  venue: "Kaggle Learn"
+  venue_en: "Kaggle Learn"
   category: other
 
 - date: "2024.08.25"
