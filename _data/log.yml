@@ -35,8 +35,8 @@
 - date: "2026.09.28"
   title: "2026年度 JIHS グローバルヘルス・フィールドトレーニング(ベトナム)— 修了"
   title_en: "JIHS Global Health Field Training 2026 (Vietnam) — Completed"
-  venue: "ベトナム ホアビン省"
-  venue_en: "Hoa Binh Province, Vietnam"
+  venue: "ベトナム ホアビン総合病院、フート省保健局"
+  venue_en: "Hoa Binh General Hospital and Phu Tho Provincial Department of Health, Vietnam"
   category: other
 
 - date: "2026.09.11"
@@ -481,6 +481,13 @@
   venue: "東京 東京武道館"
   venue_en: "Tokyo, Tokyo Budokan"
   category: kendo
+
+- date: "2024.06.04"
+  title: "令和6年度 国際感染症インテリジェンス研修 — 修了"
+  title_en: "FY2024 Global Infectious Disease Intelligence Training — Completed"
+  venue: "国立国際医療研究センター 国際感染症センター"
+  venue_en: "NCGM Disease Control and Prevention Center"
+  category: other
 
 - date: "2024.05.29"
   title: "Hexestrol, an estrogen receptor agonist, inhibits Lassa virus entry"
