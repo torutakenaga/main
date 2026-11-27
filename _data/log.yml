@@ -32,6 +32,20 @@
   venue_en: "Yamanashi, Lake Yamanaka, Furin Sanso"
   category: kendo
 
+- date: "2026.08.23"
+  title: "WHO GOARN アウトブレイク対応オリエンテーション研修 — 参加"
+  title_en: "WHO GOARN Orientation to Outbreak Response Training — Participated"
+  venue: "長崎"
+  venue_en: "Nagasaki, Japan"
+  category: other
+
+- date: "2026.08.03"
+  title: "令和8年度 国際感染症インテリジェンス研修 — 修了"
+  title_en: "FY2026 Global Infectious Disease Intelligence Training — Completed"
+  venue: "国際感染症危機管理対応推進センター(GIC)"
+  venue_en: "Global Outbreak Intelligence, Capacity Building and Deployment Coordination Center (GIC)"
+  category: other
+
 - date: "2026.07.12"
   title: "第30回 西東京剣道選手権大会(東京都剣道選手権大会予選会) — 出場"
   title_en: "The 30th West Tokyo Kendo Championship (qualifier for the Tokyo Kendo Championship) — Competed"
@@ -52,12 +66,47 @@
   category: research
   url: "https://researchmap.jp/torutakenaga/published_papers/53577386"
 
+- date: "2026.04.13–15"
+  title: "ECDC GenEpi-BioTrain 25「アウトブレイク時のモバイルラボとフィールドシーケンス」— 参加"
+  title_en: "ECDC GenEpi-BioTrain virtual training 25: Mobile Labs and Field Sequencing during Outbreaks — Participated"
+  venue: "オンライン"
+  venue_en: "Online"
+  category: other
+
+- date: "2026.04.10"
+  title: "東京大学 AI経営寄付講座 AI Business Insights 2026 — 修了"
+  title_en: "The University of Tokyo, AI Business Insights 2026 — Completed"
+  venue: "東京大学大学院工学系研究科"
+  venue_en: "The University of Tokyo, Graduate School of Engineering"
+  category: other
+
 - date: "2026.04.04"
   title: "サクラタンゴフェスティバル 2026 After Milonga"
   title_en: "Sakura Tango Festival 2026 After Milonga"
   venue: "福岡 ティエンポ・イベロアメリカーノ"
   venue_en: "Fukuoka, Tiempo Iberoamericano"
   category: tango
+
+- date: "2026.03.31"
+  title: "大規模言語モデル応用編 集中講義 2025 — 修了・最終審査合格"
+  title_en: "Large Language Models, Advanced Intensive Course 2025 — Completed and passed the final assessment"
+  venue: "東京大学 松尾・岩澤研究室"
+  venue_en: "The University of Tokyo, Matsuo-Iwasawa Lab"
+  category: other
+
+- date: "2026.03.31"
+  title: "AI発注力講座 2026 — 修了・最終審査合格"
+  title_en: "AI Commissioning Course 2026 — Completed and passed the final assessment"
+  venue: "株式会社松尾研究所"
+  venue_en: "Matsuo Institute, Inc."
+  category: other
+
+- date: "2026.03.23"
+  title: "実践へのBridge講座(大規模言語モデルの理解と実践)— 修了・最終審査合格"
+  title_en: "Bridge to Practice Course (Understanding and Applying Large Language Models) — Completed and passed the final assessment"
+  venue: "東京大学 松尾・岩澤研究室 LLM Community"
+  venue_en: "The University of Tokyo, Matsuo-Iwasawa Lab, LLM Community"
+  category: other
 
 - date: "2026.03.21"
   title: "なにわタンゴフェスティバル IN OSAKA — Team El Puente"
@@ -99,6 +148,13 @@
   venue: "滋賀 彦根 サニープレイス彦根"
   venue_en: "Shiga, Hikone, Sunny Place Hikone"
   category: tango
+
+- date: "2025.12.12"
+  title: "大規模言語モデル基礎編 集中講義 2025 — 修了"
+  title_en: "Large Language Models, Fundamentals Intensive Course 2025 — Completed"
+  venue: "東京大学 松尾・岩澤研究室"
+  venue_en: "The University of Tokyo, Matsuo-Iwasawa Lab"
+  category: other
 
 - date: "2025.11.12"
   title: "ISARIC Anti-Stigma Guidelines"
@@ -325,11 +381,25 @@
   venue_en: "Osaka, Osaka City Asahi Ward Center, Small Hall"
   category: tango
 
+- date: "2024.01.30"
+  title: "国際感染症リスク評価研修(RAGO)— 修了"
+  title_en: "Risk Assessment Workshop on Global Outbreak (RAGO) — Completed"
+  venue: "国立国際医療研究センター 国際感染症センター"
+  venue_en: "NCGM Disease Control and Prevention Center"
+  category: other
+
 - date: "2024.01.27"
   title: "KANSAI Tango Orquesta Concert -EL TANGO-"
   venue: "大阪 堺 フェニーチェ堺小ホール"
   venue_en: "Osaka, Sakai, Fenice Sakai Small Hall"
   category: tango
+
+- date: "2023.12.16"
+  title: "令和5年度 危機管理対策研修(RADS)— 修了"
+  title_en: "Risk Awareness, Self-Defence and Safety Building Training on Deployment (RADS) — Completed"
+  venue: "国立国際医療研究センター 国際感染症センター"
+  venue_en: "NCGM Disease Control and Prevention Center"
+  category: other
 
 - date: "2023.12.10"
   title: "ハートフルに踊ろう El dia dio Tango KYOTO"
@@ -930,3 +1000,9 @@
   venue: "アイルランド ダブリン"
   venue_en: "Dublin, Ireland"
   category: kendo
+
+- date: ""
+  title: "合気道 黒帯(中学生の頃)"
+  title_en: "Aikido black belt (as a junior high school student)"
+  venue: ""
+  category: other
