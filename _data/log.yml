@@ -53,6 +53,13 @@
   venue_en: "Global Outbreak Intelligence, Capacity Building and Deployment Coordination Center (GIC)"
   category: other
 
+- date: "2026.07.17–20"
+  title: "ECDC GenEpi-BioTrain 28「ポリオウイルスのゲノムと疫学 — ウイルスはどう根絶に抗うか」— 参加"
+  title_en: "ECDC GenEpi-BioTrain 28: Genomics and epidemiology of polioviruses, How a virus resists eradication? — Participated"
+  venue: "オンライン"
+  venue_en: "Online"
+  category: other
+
 - date: "2026.07.12"
   title: "第30回 西東京剣道選手権大会(東京都剣道選手権大会予選会) — 出場"
   title_en: "The 30th West Tokyo Kendo Championship (qualifier for the Tokyo Kendo Championship) — Competed"
@@ -72,6 +79,13 @@
   venue: "Japanese Journal of Infectious Diseases"
   category: research
   url: "https://researchmap.jp/torutakenaga/published_papers/53577386"
+
+- date: "2026.04.24"
+  title: "WHO GISRS 外部精度評価(EQA)Panel 24 (2025) — 修了(所属機関として。インフルエンザ・SARS-CoV-2のRT-PCR検出、抗ウイルス薬感受性試験で満点)"
+  title_en: "WHO GISRS External Quality Assessment Programme, Panel 24 (2025) — Completed (on behalf of my institute; full score in influenza and SARS-CoV-2 RT-PCR detection and antiviral susceptibility testing)"
+  venue: "香港衛生署 保健防護センター(WHO支援)"
+  venue_en: "Centre for Health Protection, Hong Kong (supported by WHO)"
+  category: other
 
 - date: "2026.04.13–15"
   title: "ECDC GenEpi-BioTrain 25「アウトブレイク時のモバイルラボとフィールドシーケンス」— 参加"
@@ -321,6 +335,13 @@
   venue: "大阪 アートエリアB1（京阪電車なにわ橋駅）"
   venue_en: "Osaka, Art Area B1"
   category: tango
+
+- date: "2024.09.06–2025.01.21"
+  title: "Kaggle Learn 9コース(Python、Pandas、機械学習、ディープラーニング、SQL、データクリーニングなど)— 修了"
+  title_en: "Kaggle Learn, nine courses (Python, Pandas, machine learning, deep learning, SQL, data cleaning and more) — Completed"
+  venue: "Kaggle"
+  venue_en: "Kaggle"
+  category: other
 
 - date: "2024.08.25"
   title: "KANSAI Tango Orquesta Summer Concert"
